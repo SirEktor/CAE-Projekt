@@ -1,0 +1,547 @@
+<UANodeSet Version="1.02" LastModified="2013-03-06T05:36:43.4892317Z"><Aliases><Alias Alias="Boolean">i=1</Alias><Alias Alias="SByte">i=2</Alias><Alias Alias="Byte">i=3</Alias><Alias Alias="Int16">i=4</Alias><Alias Alias="UInt16">i=5</Alias><Alias Alias="Int32">i=6</Alias><Alias Alias="UInt32">i=7</Alias><Alias Alias="Int64">i=8</Alias><Alias Alias="UInt64">i=9</Alias><Alias Alias="Float">i=10</Alias><Alias Alias="Double">i=11</Alias><Alias Alias="DateTime">i=13</Alias><Alias Alias="String">i=12</Alias><Alias Alias="ByteString">i=15</Alias><Alias Alias="Guid">i=14</Alias><Alias Alias="XmlElement">i=16</Alias><Alias Alias="NodeId">i=17</Alias><Alias Alias="ExpandedNodeId">i=18</Alias><Alias Alias="QualifiedName">i=20</Alias><Alias Alias="LocalizedText">i=21</Alias><Alias Alias="StatusCode">i=19</Alias><Alias Alias="Structure">i=22</Alias><Alias Alias="Number">i=26</Alias><Alias Alias="Integer">i=27</Alias><Alias Alias="UInteger">i=28</Alias><Alias Alias="HasComponent">i=47</Alias><Alias Alias="HasProperty">i=46</Alias><Alias Alias="Organizes">i=35</Alias><Alias Alias="HasEventSource">i=36</Alias><Alias Alias="HasNotifier">i=48</Alias><Alias Alias="HasSubtype">i=45</Alias><Alias Alias="HasTypeDefinition">i=40</Alias><Alias Alias="HasModellingRule">i=37</Alias><Alias Alias="HasEncoding">i=38</Alias><Alias Alias="HasDescription">i=39</Alias></Aliases>
+<UAObject NodeId="348957" BrowseName="MTPManifest">
+	<DisplayName>MTPManifest</DisplayName>
+</UAObject>
+<UAObject NodeId="348958" BrowseName="MTPId">
+	<DisplayName>MTPId</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348957</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="348962" BrowseName="DeviceDriver">
+	<DisplayName>DeviceDriver</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348957</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="348965" BrowseName="DeviceTypes">
+	<DisplayName>DeviceTypes</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348957</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="348967" BrowseName="DeviceDriverId">
+	<DisplayName>DeviceDriverId</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348962</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="348971" BrowseName="DIMAVersion">
+	<DisplayName>DIMAVersion</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348962</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="348973" BrowseName="DescriptionDomain">
+	<DisplayName>DescriptionDomain</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348962</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="348975" BrowseName="DeviceType">
+	<DisplayName>DeviceType</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348965</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="348977" BrowseName="Control">
+	<DisplayName>Control</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348973</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="348982" BrowseName="HMI">
+	<DisplayName>HMI</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348973</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="348987" BrowseName="DeviceTypeId">
+	<DisplayName>DeviceTypeId</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348975</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="348991" BrowseName="Name">
+	<DisplayName>Name</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348975</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="348993" BrowseName="Series">
+	<DisplayName>Series</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348975</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="348995" BrowseName="ManufacturerName">
+	<DisplayName>ManufacturerName</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348975</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="348997" BrowseName="DeviceDescriptions">
+	<DisplayName>DeviceDescriptions</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348975</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="348999" BrowseName="Interfaces">
+	<DisplayName>Interfaces</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348975</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349001" BrowseName="Images">
+	<DisplayName>Images</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348975</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349003" BrowseName="Helpfiles">
+	<DisplayName>Helpfiles</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348975</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349005" BrowseName="Manuals">
+	<DisplayName>Manuals</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348975</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349007" BrowseName="CatalogNodeReferences">
+	<DisplayName>CatalogNodeReferences</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348975</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349009" BrowseName="DeviceDescription">
+	<DisplayName>DeviceDescription</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348997</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349013" BrowseName="DeviceDescription">
+	<DisplayName>DeviceDescription</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348997</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349017" BrowseName="Interface">
+	<DisplayName>Interface</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">348999</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349024" BrowseName="Image">
+	<DisplayName>Image</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">349001</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349028" BrowseName="Image">
+	<DisplayName>Image</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">349001</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349032" BrowseName="Image">
+	<DisplayName>Image</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">349001</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349036" BrowseName="CatalogNodeRef">
+	<DisplayName>CatalogNodeRef</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">349007</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349038" BrowseName="Connector">
+	<DisplayName>Connector</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">349017</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349043" BrowseName="Connector">
+	<DisplayName>Connector</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">349017</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349048" BrowseName="Connector">
+	<DisplayName>Connector</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">349017</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349053" BrowseName="ConnectionParameter">
+	<DisplayName>ConnectionParameter</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">349038</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349057" BrowseName="ConnectionHandler">
+	<DisplayName>ConnectionHandler</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">349043</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="349062" BrowseName="ConnectionHandler">
+	<DisplayName>ConnectionHandler</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">349048</Reference>
+	</References>
+</UAObject>
+<UAVariable NodeId="348959" BrowseName="MTPId" DataType="String">
+	<DisplayName>MTPId</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348957</Reference>
+	</References>
+	<Value><String>1.0.0.0</String></Value>
+</UAVariable>
+<UAVariable NodeId="348960" BrowseName="MTPId" DataType="String">
+	<DisplayName>MTPId</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348957</Reference>
+	</References>
+	<Value><String>1f4521de-fc2a-4cee-a192-ca7b48dfc299</String></Value>
+</UAVariable>
+<UAVariable NodeId="348963" BrowseName="DeviceDriver" DataType="String">
+	<DisplayName>DeviceDriver</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348957</Reference>
+	</References>
+	<Value><String>Module</String></Value>
+</UAVariable>
+<UAVariable NodeId="348968" BrowseName="DeviceDriverId" DataType="String">
+	<DisplayName>DeviceDriverId</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348962</Reference>
+	</References>
+	<Value><String>1.0.0.0</String></Value>
+</UAVariable>
+<UAVariable NodeId="348969" BrowseName="DeviceDriverId" DataType="String">
+	<DisplayName>DeviceDriverId</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348962</Reference>
+	</References>
+	<Value><String>fbf6c645-0c7e-4260-9ae2-6bbdc30863c0</String></Value>
+</UAVariable>
+<UAVariable NodeId="348972" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348962</Reference>
+	</References>
+	<Value><String>1.0.0.0</String></Value>
+</UAVariable>
+<UAVariable NodeId="348978" BrowseName="Control" DataType="String">
+	<DisplayName>Control</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348973</Reference>
+	</References>
+	<Value><String>\ModuleDriver\Control\ModuleControle.xml</String></Value>
+</UAVariable>
+<UAVariable NodeId="348979" BrowseName="Control" DataType="String">
+	<DisplayName>Control</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348973</Reference>
+	</References>
+	<Value><String>1.0.0.0</String></Value>
+</UAVariable>
+<UAVariable NodeId="348980" BrowseName="Control" DataType="String">
+	<DisplayName>Control</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348973</Reference>
+	</References>
+	<Value><String>true</String></Value>
+</UAVariable>
+<UAVariable NodeId="348983" BrowseName="HMI" DataType="String">
+	<DisplayName>HMI</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348973</Reference>
+	</References>
+	<Value><String>\ModuleDriver\HMI\HMI.xml</String></Value>
+</UAVariable>
+<UAVariable NodeId="348984" BrowseName="HMI" DataType="String">
+	<DisplayName>HMI</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348973</Reference>
+	</References>
+	<Value><String>1.0.0.0</String></Value>
+</UAVariable>
+<UAVariable NodeId="348985" BrowseName="HMI" DataType="String">
+	<DisplayName>HMI</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348973</Reference>
+	</References>
+	<Value><String>true</String></Value>
+</UAVariable>
+<UAVariable NodeId="348988" BrowseName="DeviceTypeId" DataType="String">
+	<DisplayName>DeviceTypeId</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348975</Reference>
+	</References>
+	<Value><String>1.0.0.0</String></Value>
+</UAVariable>
+<UAVariable NodeId="348989" BrowseName="DeviceTypeId" DataType="String">
+	<DisplayName>DeviceTypeId</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348975</Reference>
+	</References>
+	<Value><String>dde1b33d-1f6e-4e01-854d-123b4c48c293</String></Value>
+</UAVariable>
+<UAVariable NodeId="348992" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348975</Reference>
+	</References>
+	<Value><String>Plant Module 1</String></Value>
+</UAVariable>
+<UAVariable NodeId="348994" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348975</Reference>
+	</References>
+	<Value><String>0</String></Value>
+</UAVariable>
+<UAVariable NodeId="348996" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348975</Reference>
+	</References>
+	<Value><String>Hersteller ABZ</String></Value>
+</UAVariable>
+<UAVariable NodeId="349010" BrowseName="DeviceDescription" DataType="String">
+	<DisplayName>DeviceDescription</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348997</Reference>
+	</References>
+	<Value><String>\DeviceDescriptions\CDS\PlantModule.devdesc.xml</String></Value>
+</UAVariable>
+<UAVariable NodeId="349011" BrowseName="DeviceDescription" DataType="String">
+	<DisplayName>DeviceDescription</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348997</Reference>
+	</References>
+	<Value><String>CoDeSys</String></Value>
+</UAVariable>
+<UAVariable NodeId="349014" BrowseName="DeviceDescription" DataType="String">
+	<DisplayName>DeviceDescription</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348997</Reference>
+	</References>
+	<Value><String>\DeviceDescriptions\PCS7\PlantModule.devdesc.xml</String></Value>
+</UAVariable>
+<UAVariable NodeId="349015" BrowseName="DeviceDescription" DataType="String">
+	<DisplayName>DeviceDescription</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348997</Reference>
+	</References>
+	<Value><String>SiemensPCS7</String></Value>
+</UAVariable>
+<UAVariable NodeId="349018" BrowseName="Interface" DataType="String">
+	<DisplayName>Interface</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348999</Reference>
+	</References>
+	<Value><String>0.2</String></Value>
+</UAVariable>
+<UAVariable NodeId="349019" BrowseName="Interface" DataType="String">
+	<DisplayName>Interface</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348999</Reference>
+	</References>
+	<Value><String>true</String></Value>
+</UAVariable>
+<UAVariable NodeId="349020" BrowseName="Interface" DataType="String">
+	<DisplayName>Interface</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348999</Reference>
+	</References>
+	<Value><String>Bottom</String></Value>
+</UAVariable>
+<UAVariable NodeId="349021" BrowseName="Interface" DataType="String">
+	<DisplayName>Interface</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348999</Reference>
+	</References>
+	<Value><String>2</String></Value>
+</UAVariable>
+<UAVariable NodeId="349022" BrowseName="Interface" DataType="String">
+	<DisplayName>Interface</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">348999</Reference>
+	</References>
+	<Value><String>ETHERNET</String></Value>
+</UAVariable>
+<UAVariable NodeId="349025" BrowseName="Image" DataType="String">
+	<DisplayName>Image</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349001</Reference>
+	</References>
+	<Value><String>\Images\CatalogImage\PlantModule.png</String></Value>
+</UAVariable>
+<UAVariable NodeId="349026" BrowseName="Image" DataType="String">
+	<DisplayName>Image</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349001</Reference>
+	</References>
+	<Value><String>CatalogImage</String></Value>
+</UAVariable>
+<UAVariable NodeId="349029" BrowseName="Image" DataType="String">
+	<DisplayName>Image</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349001</Reference>
+	</References>
+	<Value><String>\Images\NetworkImage\PlantModule.png</String></Value>
+</UAVariable>
+<UAVariable NodeId="349030" BrowseName="Image" DataType="String">
+	<DisplayName>Image</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349001</Reference>
+	</References>
+	<Value><String>NetworkImage</String></Value>
+</UAVariable>
+<UAVariable NodeId="349033" BrowseName="Image" DataType="String">
+	<DisplayName>Image</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349001</Reference>
+	</References>
+	<Value><String>\Images\Icons\PlaceholderDevice.png</String></Value>
+</UAVariable>
+<UAVariable NodeId="349034" BrowseName="Image" DataType="String">
+	<DisplayName>Image</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349001</Reference>
+	</References>
+	<Value><String>Icon</String></Value>
+</UAVariable>
+<UAVariable NodeId="349037" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349007</Reference>
+	</References>
+	<Value><String>Plant_Modules</String></Value>
+</UAVariable>
+<UAVariable NodeId="349039" BrowseName="Connector" DataType="String">
+	<DisplayName>Connector</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349017</Reference>
+	</References>
+	<Value><String>CCEF4A79-DEB1-42E3-9BD8-6AB8DEE924AA</String></Value>
+</UAVariable>
+<UAVariable NodeId="349040" BrowseName="Connector" DataType="String">
+	<DisplayName>Connector</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349017</Reference>
+	</References>
+	<Value><String>required</String></Value>
+</UAVariable>
+<UAVariable NodeId="349041" BrowseName="Connector" DataType="String">
+	<DisplayName>Connector</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349017</Reference>
+	</References>
+	<Value><String>2</String></Value>
+</UAVariable>
+<UAVariable NodeId="349044" BrowseName="Connector" DataType="String">
+	<DisplayName>Connector</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349017</Reference>
+	</References>
+	<Value><String>B617FCF1-08B0-468B-85BA-59F9E8091606</String></Value>
+</UAVariable>
+<UAVariable NodeId="349045" BrowseName="Connector" DataType="String">
+	<DisplayName>Connector</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349017</Reference>
+	</References>
+	<Value><String>supported</String></Value>
+</UAVariable>
+<UAVariable NodeId="349046" BrowseName="Connector" DataType="String">
+	<DisplayName>Connector</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349017</Reference>
+	</References>
+	<Value><String>7</String></Value>
+</UAVariable>
+<UAVariable NodeId="349049" BrowseName="Connector" DataType="String">
+	<DisplayName>Connector</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349017</Reference>
+	</References>
+	<Value><String>B617FCF1-08B0-468B-85BA-59F9E8091606</String></Value>
+</UAVariable>
+<UAVariable NodeId="349050" BrowseName="Connector" DataType="String">
+	<DisplayName>Connector</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349017</Reference>
+	</References>
+	<Value><String>required</String></Value>
+</UAVariable>
+<UAVariable NodeId="349051" BrowseName="Connector" DataType="String">
+	<DisplayName>Connector</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349017</Reference>
+	</References>
+	<Value><String>8</String></Value>
+</UAVariable>
+<UAVariable NodeId="349054" BrowseName="ConnectionParameter" DataType="String">
+	<DisplayName>ConnectionParameter</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349038</Reference>
+	</References>
+	<Value><String>255.255.255.0</String></Value>
+</UAVariable>
+<UAVariable NodeId="349055" BrowseName="ConnectionParameter" DataType="String">
+	<DisplayName>ConnectionParameter</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349038</Reference>
+	</References>
+	<Value><String>139.11.207.102</String></Value>
+</UAVariable>
+<UAVariable NodeId="349058" BrowseName="ConnectionHandler" DataType="String">
+	<DisplayName>ConnectionHandler</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349043</Reference>
+	</References>
+	<Value><String>1.0.0.0</String></Value>
+</UAVariable>
+<UAVariable NodeId="349059" BrowseName="ConnectionHandler" DataType="String">
+	<DisplayName>ConnectionHandler</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349043</Reference>
+	</References>
+	<Value><String>\ConnectionHandler\ConnectionHandler\ModbusOPCConnectionHandler.dll</String></Value>
+</UAVariable>
+<UAVariable NodeId="349060" BrowseName="ConnectionHandler" DataType="String">
+	<DisplayName>ConnectionHandler</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349043</Reference>
+	</References>
+	<Value><String>ConnectionHandler.ConnectionHandler</String></Value>
+</UAVariable>
+<UAVariable NodeId="349063" BrowseName="ConnectionHandler" DataType="String">
+	<DisplayName>ConnectionHandler</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349048</Reference>
+	</References>
+	<Value><String>1.0.0.0</String></Value>
+</UAVariable>
+<UAVariable NodeId="349064" BrowseName="ConnectionHandler" DataType="String">
+	<DisplayName>ConnectionHandler</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349048</Reference>
+	</References>
+	<Value><String>\ConnectionHandler\ConnectionHandler\ModbusOPCConnectionHandler.dll</String></Value>
+</UAVariable>
+<UAVariable NodeId="349065" BrowseName="ConnectionHandler" DataType="String">
+	<DisplayName>ConnectionHandler</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">349048</Reference>
+	</References>
+	<Value><String>ConnectionHandler.ConnectionHandler</String></Value>
+</UAVariable>
+</UANodeSet>

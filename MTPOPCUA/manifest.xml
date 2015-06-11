@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MTPManifest>
+  <MTPId Version="1.0.0.0" Guid="1f4521de-fc2a-4cee-a192-ca7b48dfc299" />
+   
+ <!-- Beschreibung der Tortenstücke ;-)-->
+ <DeviceDriver Type="Module">
+    <DeviceDriverId Version="1.0.0.0" Guid="fbf6c645-0c7e-4260-9ae2-6bbdc30863c0" />
+    
+	<DIMAVersion>1.0.0.0</DIMAVersion>
+    
+	<DescriptionDomain>
+      <Control FileName="\ModuleDriver\Control\ModuleControle.xml" Version="1.0.0.0" Active="true"/>
+      <HMI FileName="\ModuleDriver\HMI\HMI.xml" Version="1.0.0.0" Active="true"/>
+	  <!-- tbd 
+		Alarm
+		Archiv
+		Diagnose
+		...
+		-->
+    </DescriptionDomain>
+  </DeviceDriver>
+  
+   
+  <DeviceTypes>
+    <DeviceType>
+      <DeviceTypeId Version="1.0.0.0" Guid="dde1b33d-1f6e-4e01-854d-123b4c48c293" />
+      <Name>Plant Module 1</Name>
+      <Series>0</Series>
+      <ManufacturerName>Hersteller ABZ</ManufacturerName>
+	  <!-- Herstellerspezifische Informationen -->
+      <DeviceDescriptions>
+        <DeviceDescription FileName="\DeviceDescriptions\CDS\PlantModule.devdesc.xml" Type="CoDeSys" />
+		<DeviceDescription FileName="\DeviceDescriptions\PCS7\PlantModule.devdesc.xml" Type="SiemensPCS7" />
+      </DeviceDescriptions>
+	  
+	   <!-- Komunikationsanschlussspunkte-->
+	  <Interfaces>
+        <Interface InterfaceId="2" FramePosition="0.2" FrameDirection="Bottom" IsExplicit="true" PhysicalInterfaceType="ETHERNET">
+          <Connector Id="2" ProtocolId="CCEF4A79-DEB1-42E3-9BD8-6AB8DEE924AA" Type="required">
+			<ConnectionParameter IP="139.11.207.102" Mask="255.255.255.0"/>
+			<!-- alternativ 
+			<ConnectionParameter IP="DHCP">
+			-->
+		  </Connector>
+          <!-- Pseudo connector, does not exist in CoDeSys, MODBUS Slave, TCP -->
+          <Connector Id="7" ProtocolId="B617FCF1-08B0-468B-85BA-59F9E8091606" Type="supported">
+            <ConnectionHandler Version="1.0.0.0" Type="ConnectionHandler.ConnectionHandler" Assembly="\ConnectionHandler\ConnectionHandler\ModbusOPCConnectionHandler.dll" />
+          </Connector>
+          <Connector Id="8" ProtocolId="B617FCF1-08B0-468B-85BA-59F9E8091606" Type="required">
+            <ConnectionHandler Version="1.0.0.0" Type="ConnectionHandler.ConnectionHandler" Assembly="\ConnectionHandler\ConnectionHandler\ModbusOPCConnectionHandler.dll" />
+          </Connector>
+        </Interface>
+      </Interfaces>
+      
+	  
+	 
+     
+      <Images>
+        <Image FileName="\Images\CatalogImage\PlantModule.png" ImageType="CatalogImage" />
+        <Image FileName="\Images\NetworkImage\PlantModule.png" ImageType="NetworkImage" />
+        <Image FileName="\Images\Icons\PlaceholderDevice.png" ImageType="Icon" />
+      </Images>
+     
+ 	  <Helpfiles />
+      
+	  <Manuals />
+	  <!-- Dokumentation (pdf, Weblinks,...) -->
+      
+	  <CatalogNodeReferences>
+        <CatalogNodeRef>Plant_Modules</CatalogNodeRef>
+      </CatalogNodeReferences>
+	  
+    </DeviceType>
+  </DeviceTypes>
+ </MTPManifest>
