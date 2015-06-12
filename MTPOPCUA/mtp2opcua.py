@@ -1,9 +1,39 @@
 import xml.etree.cElementTree as ET
 import copy
 from time import sleep
+import zipfile
+import tempfile
+import os
+import shutil
+
+
+# MTP-Datei öffnen und temporären Ordner erstellen
+mtp=zipfile.ZipFile('2014-12-10-PlantModule.mtp')
+tmp_dir=tempfile.mkdtemp()
+mtp.extractall(tmp_dir)
+
+
+
 
 # XML-Datei einlesen
-mtf=ET.parse("manifest.xml").getroot()
+mtf=ET.parse(os.path.join(tmp_dir,'PlantModule/Metadata/manifest.xml')).getroot()
+
+
+# Weitere Dateien suchen
+fn=mtf.findall(".//*[@FileName]")
+for f in fn:
+    file=f.attrib["FileName"]
+    file="PlantModule/"+file.replace("\\","/")[1:]
+
+    
+    if(file.find(".xml")>0):
+        print(file)
+        try:
+            xmlf=ET.parse(os.path.join(tmp_dir,file)).getroot()
+            f.append(copy.deepcopy(xmlf))
+        except Exception as e:
+            print("Error: Beim Laden von "+file)
+            print(e)
 
 tabs=""
 
@@ -114,6 +144,11 @@ for v in var_list:
 text+="</UANodeSet>"
 
 # Ausgabe Datei erzeugen und beschreiben
-out=open("opcua.xml",'w')
+out=open("mtpall.xml",'w')
+out.write(ET.tostring(mtf,"utf-8").decode("utf-8"))
+out=open("opcuanode.xml",'w')
 out.write(text)
+
+# Clean up the temp dir
+shutil.rmtree(tmp_dir)
 

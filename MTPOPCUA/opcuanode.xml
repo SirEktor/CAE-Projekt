@@ -895,14 +895,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">348957</Reference>
 	</References>
-	<Value><String>1.0.0.0</String></Value>
+	<Value><String>1f4521de-fc2a-4cee-a192-ca7b48dfc299</String></Value>
 </UAVariable>
 <UAVariable NodeId="348960" BrowseName="MTPId" DataType="String">
 	<DisplayName>MTPId</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">348957</Reference>
 	</References>
-	<Value><String>1f4521de-fc2a-4cee-a192-ca7b48dfc299</String></Value>
+	<Value><String>1.0.0.0</String></Value>
 </UAVariable>
 <UAVariable NodeId="348963" BrowseName="DeviceDriver" DataType="String">
 	<DisplayName>DeviceDriver</DisplayName>
@@ -916,14 +916,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">348962</Reference>
 	</References>
-	<Value><String>1.0.0.0</String></Value>
+	<Value><String>fbf6c645-0c7e-4260-9ae2-6bbdc30863c0</String></Value>
 </UAVariable>
 <UAVariable NodeId="348969" BrowseName="DeviceDriverId" DataType="String">
 	<DisplayName>DeviceDriverId</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">348962</Reference>
 	</References>
-	<Value><String>fbf6c645-0c7e-4260-9ae2-6bbdc30863c0</String></Value>
+	<Value><String>1.0.0.0</String></Value>
 </UAVariable>
 <UAVariable NodeId="348972" BrowseName="Text" DataType="String">
 	<DisplayName>Text</DisplayName>
@@ -937,56 +937,56 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">348973</Reference>
 	</References>
-	<Value><String>\DeviceDriver\Control\Control.xml</String></Value>
+	<Value><String>1.0.0.0</String></Value>
 </UAVariable>
 <UAVariable NodeId="348979" BrowseName="Control" DataType="String">
 	<DisplayName>Control</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">348973</Reference>
 	</References>
-	<Value><String>true</String></Value>
+	<Value><String>\DeviceDriver\Control\Control.xml</String></Value>
 </UAVariable>
 <UAVariable NodeId="348980" BrowseName="Control" DataType="String">
 	<DisplayName>Control</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">348973</Reference>
 	</References>
-	<Value><String>1.0.0.0</String></Value>
+	<Value><String>true</String></Value>
 </UAVariable>
 <UAVariable NodeId="348983" BrowseName="HMI" DataType="String">
 	<DisplayName>HMI</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">348973</Reference>
 	</References>
-	<Value><String>\DeviceDriver\HMI\hmi.xml</String></Value>
+	<Value><String>1.0.0.0</String></Value>
 </UAVariable>
 <UAVariable NodeId="348984" BrowseName="HMI" DataType="String">
 	<DisplayName>HMI</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">348973</Reference>
 	</References>
-	<Value><String>true</String></Value>
+	<Value><String>\DeviceDriver\HMI\hmi.xml</String></Value>
 </UAVariable>
 <UAVariable NodeId="348985" BrowseName="HMI" DataType="String">
 	<DisplayName>HMI</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">348973</Reference>
 	</References>
-	<Value><String>1.0.0.0</String></Value>
+	<Value><String>true</String></Value>
 </UAVariable>
 <UAVariable NodeId="348988" BrowseName="DeviceTypeId" DataType="String">
 	<DisplayName>DeviceTypeId</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">348975</Reference>
 	</References>
-	<Value><String>1.0.0.0</String></Value>
+	<Value><String>dde1b33d-1f6e-4e01-854d-123b4c48c293</String></Value>
 </UAVariable>
 <UAVariable NodeId="348989" BrowseName="DeviceTypeId" DataType="String">
 	<DisplayName>DeviceTypeId</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">348975</Reference>
 	</References>
-	<Value><String>dde1b33d-1f6e-4e01-854d-123b4c48c293</String></Value>
+	<Value><String>1.0.0.0</String></Value>
 </UAVariable>
 <UAVariable NodeId="348992" BrowseName="Text" DataType="String">
 	<DisplayName>Text</DisplayName>
@@ -1063,14 +1063,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">348999</Reference>
 	</References>
-	<Value><String>ETHERNET</String></Value>
+	<Value><String>2</String></Value>
 </UAVariable>
 <UAVariable NodeId="349026" BrowseName="Interface" DataType="String">
 	<DisplayName>Interface</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">348999</Reference>
 	</References>
-	<Value><String>2</String></Value>
+	<Value><String>ETHERNET</String></Value>
 </UAVariable>
 <UAVariable NodeId="349027" BrowseName="Interface" DataType="String">
 	<DisplayName>Interface</DisplayName>
@@ -1133,28 +1133,28 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349009</Reference>
 	</References>
-	<Value><String>localhost</String></Value>
+	<Value><String>OPCDA</String></Value>
 </UAVariable>
 <UAVariable NodeId="349045" BrowseName="pconnection" DataType="String">
 	<DisplayName>pconnection</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349009</Reference>
 	</References>
-	<Value><String>OPCDA</String></Value>
+	<Value><String>localhost</String></Value>
 </UAVariable>
 <UAVariable NodeId="349050" BrowseName="pconnection" DataType="String">
 	<DisplayName>pconnection</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349012</Reference>
 	</References>
-	<Value><String>localhost</String></Value>
+	<Value><String>OPCDA</String></Value>
 </UAVariable>
 <UAVariable NodeId="349051" BrowseName="pconnection" DataType="String">
 	<DisplayName>pconnection</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349012</Reference>
 	</References>
-	<Value><String>OPCDA</String></Value>
+	<Value><String>localhost</String></Value>
 </UAVariable>
 <UAVariable NodeId="349054" BrowseName="graph" DataType="String">
 	<DisplayName>graph</DisplayName>
@@ -1168,7 +1168,7 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349012</Reference>
 	</References>
-	<Value><String>1920</String></Value>
+	<Value><String>1200</String></Value>
 </UAVariable>
 <UAVariable NodeId="349056" BrowseName="graph" DataType="String">
 	<DisplayName>graph</DisplayName>
@@ -1182,14 +1182,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349012</Reference>
 	</References>
-	<Value><String>1200</String></Value>
+	<Value><String>1920</String></Value>
 </UAVariable>
 <UAVariable NodeId="349062" BrowseName="Connector" DataType="String">
 	<DisplayName>Connector</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349022</Reference>
 	</References>
-	<Value><String>2</String></Value>
+	<Value><String>CCEF4A79-DEB1-42E3-9BD8-6AB8DEE924AA</String></Value>
 </UAVariable>
 <UAVariable NodeId="349063" BrowseName="Connector" DataType="String">
 	<DisplayName>Connector</DisplayName>
@@ -1203,14 +1203,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349022</Reference>
 	</References>
-	<Value><String>CCEF4A79-DEB1-42E3-9BD8-6AB8DEE924AA</String></Value>
+	<Value><String>2</String></Value>
 </UAVariable>
 <UAVariable NodeId="349067" BrowseName="Connector" DataType="String">
 	<DisplayName>Connector</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349022</Reference>
 	</References>
-	<Value><String>7</String></Value>
+	<Value><String>B617FCF1-08B0-468B-85BA-59F9E8091606</String></Value>
 </UAVariable>
 <UAVariable NodeId="349068" BrowseName="Connector" DataType="String">
 	<DisplayName>Connector</DisplayName>
@@ -1224,14 +1224,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349022</Reference>
 	</References>
-	<Value><String>B617FCF1-08B0-468B-85BA-59F9E8091606</String></Value>
+	<Value><String>7</String></Value>
 </UAVariable>
 <UAVariable NodeId="349072" BrowseName="Connector" DataType="String">
 	<DisplayName>Connector</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349022</Reference>
 	</References>
-	<Value><String>8</String></Value>
+	<Value><String>B617FCF1-08B0-468B-85BA-59F9E8091606</String></Value>
 </UAVariable>
 <UAVariable NodeId="349073" BrowseName="Connector" DataType="String">
 	<DisplayName>Connector</DisplayName>
@@ -1245,14 +1245,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349022</Reference>
 	</References>
-	<Value><String>B617FCF1-08B0-468B-85BA-59F9E8091606</String></Value>
+	<Value><String>8</String></Value>
 </UAVariable>
 <UAVariable NodeId="349077" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349043</Reference>
 	</References>
-	<Value><String>PLC_PRG.Panel_visu.L001Value</String></Value>
+	<Value><String></String></Value>
 </UAVariable>
 <UAVariable NodeId="349078" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
@@ -1266,14 +1266,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349043</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>PLC_PRG.Panel_visu.L001Value</String></Value>
 </UAVariable>
 <UAVariable NodeId="349082" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349043</Reference>
 	</References>
-	<Value><String>PLC_PRG.Panel_visu.P001Running</String></Value>
+	<Value><String></String></Value>
 </UAVariable>
 <UAVariable NodeId="349083" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
@@ -1287,14 +1287,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349043</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>PLC_PRG.Panel_visu.P001Running</String></Value>
 </UAVariable>
 <UAVariable NodeId="349087" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349043</Reference>
 	</References>
-	<Value><String>PLC_PRG.Panel_visu.X001Value</String></Value>
+	<Value><String></String></Value>
 </UAVariable>
 <UAVariable NodeId="349088" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
@@ -1308,14 +1308,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349043</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>PLC_PRG.Panel_visu.X001Value</String></Value>
 </UAVariable>
 <UAVariable NodeId="349092" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349043</Reference>
 	</References>
-	<Value><String>PLC_PRG.Panel_visu.X001Open</String></Value>
+	<Value><String></String></Value>
 </UAVariable>
 <UAVariable NodeId="349093" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
@@ -1329,14 +1329,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349043</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>PLC_PRG.Panel_visu.X001Open</String></Value>
 </UAVariable>
 <UAVariable NodeId="349097" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349043</Reference>
 	</References>
-	<Value><String>PLC_PRG.Panel_visu.X001Closed</String></Value>
+	<Value><String></String></Value>
 </UAVariable>
 <UAVariable NodeId="349098" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
@@ -1350,21 +1350,21 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349043</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>PLC_PRG.Panel_visu.X001Closed</String></Value>
 </UAVariable>
 <UAVariable NodeId="349102" BrowseName="modul" DataType="String">
 	<DisplayName>modul</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349047</Reference>
 	</References>
-	<Value><String>Plant_Module_1</String></Value>
+	<Value><String></String></Value>
 </UAVariable>
 <UAVariable NodeId="349103" BrowseName="modul" DataType="String">
 	<DisplayName>modul</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349047</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>Plant_Module_1</String></Value>
 </UAVariable>
 <UAVariable NodeId="349104" BrowseName="modul" DataType="String">
 	<DisplayName>modul</DisplayName>
@@ -1378,7 +1378,7 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349049</Reference>
 	</References>
-	<Value><String>PLC_PRG.Panel_visu.L001Value</String></Value>
+	<Value><String></String></Value>
 </UAVariable>
 <UAVariable NodeId="349108" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
@@ -1392,14 +1392,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349049</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>PLC_PRG.Panel_visu.L001Value</String></Value>
 </UAVariable>
 <UAVariable NodeId="349112" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349049</Reference>
 	</References>
-	<Value><String>PLC_PRG.Panel_visu.P001Running</String></Value>
+	<Value><String></String></Value>
 </UAVariable>
 <UAVariable NodeId="349113" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
@@ -1413,14 +1413,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349049</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>PLC_PRG.Panel_visu.P001Running</String></Value>
 </UAVariable>
 <UAVariable NodeId="349117" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349049</Reference>
 	</References>
-	<Value><String>PLC_PRG.Panel_visu.X001Value</String></Value>
+	<Value><String></String></Value>
 </UAVariable>
 <UAVariable NodeId="349118" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
@@ -1434,14 +1434,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349049</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>PLC_PRG.Panel_visu.X001Value</String></Value>
 </UAVariable>
 <UAVariable NodeId="349122" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349049</Reference>
 	</References>
-	<Value><String>PLC_PRG.Panel_visu.X001Open</String></Value>
+	<Value><String></String></Value>
 </UAVariable>
 <UAVariable NodeId="349123" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
@@ -1455,14 +1455,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349049</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>PLC_PRG.Panel_visu.X001Open</String></Value>
 </UAVariable>
 <UAVariable NodeId="349127" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349049</Reference>
 	</References>
-	<Value><String>PLC_PRG.Panel_visu.X001Closed</String></Value>
+	<Value><String></String></Value>
 </UAVariable>
 <UAVariable NodeId="349128" BrowseName="pvalue" DataType="String">
 	<DisplayName>pvalue</DisplayName>
@@ -1476,35 +1476,35 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349049</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>PLC_PRG.Panel_visu.X001Closed</String></Value>
 </UAVariable>
 <UAVariable NodeId="349132" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>594</String></Value>
+	<Value><String>2a175c26-8071-4c66-86cf-a26c875dae44</String></Value>
 </UAVariable>
 <UAVariable NodeId="349133" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>2a175c26-8071-4c66-86cf-a26c875dae44</String></Value>
+	<Value><String>594</String></Value>
 </UAVariable>
 <UAVariable NodeId="349134" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>469</String></Value>
+	<Value><String>L001</String></Value>
 </UAVariable>
 <UAVariable NodeId="349135" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>L001</String></Value>
+	<Value><String>NA_TankLevel01</String></Value>
 </UAVariable>
 <UAVariable NodeId="349136" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
@@ -1518,49 +1518,49 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>469</String></Value>
 </UAVariable>
 <UAVariable NodeId="349138" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>446</String></Value>
+	<Value><String></String></Value>
 </UAVariable>
 <UAVariable NodeId="349139" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>NA_TankLevel01</String></Value>
+	<Value><String>446</String></Value>
 </UAVariable>
 <UAVariable NodeId="349142" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>1025</String></Value>
+	<Value><String>7369b780-9b9b-4cfb-9b29-5a95e56e1473</String></Value>
 </UAVariable>
 <UAVariable NodeId="349143" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>7369b780-9b9b-4cfb-9b29-5a95e56e1473</String></Value>
+	<Value><String>1025</String></Value>
 </UAVariable>
 <UAVariable NodeId="349144" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>145</String></Value>
+	<Value><String>P001</String></Value>
 </UAVariable>
 <UAVariable NodeId="349145" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>P001</String></Value>
+	<Value><String>NA_Pump01</String></Value>
 </UAVariable>
 <UAVariable NodeId="349146" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
@@ -1574,42 +1574,42 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>937</String></Value>
+	<Value><String>145</String></Value>
 </UAVariable>
 <UAVariable NodeId="349148" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>NA_Pump01</String></Value>
+	<Value><String>937</String></Value>
 </UAVariable>
 <UAVariable NodeId="349151" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>354</String></Value>
+	<Value><String>dd174dd1-c603-4260-a77d-fe80e8e34977</String></Value>
 </UAVariable>
 <UAVariable NodeId="349152" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>dd174dd1-c603-4260-a77d-fe80e8e34977</String></Value>
+	<Value><String>354</String></Value>
 </UAVariable>
 <UAVariable NodeId="349153" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>153</String></Value>
+	<Value><String>X001</String></Value>
 </UAVariable>
 <UAVariable NodeId="349154" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>X001</String></Value>
+	<Value><String>NA_Valve01</String></Value>
 </UAVariable>
 <UAVariable NodeId="349155" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
@@ -1623,189 +1623,189 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=551-14-03</String></Value>
+	<Value><String>153</String></Value>
 </UAVariable>
 <UAVariable NodeId="349157" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>914</String></Value>
+	<Value><String>http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=551-14-03</String></Value>
 </UAVariable>
 <UAVariable NodeId="349158" BrowseName="node" DataType="String">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>NA_Valve01</String></Value>
+	<Value><String>914</String></Value>
 </UAVariable>
 <UAVariable NodeId="349161" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>Pipe_01</String></Value>
+	<Value><String>fd6f47d1-7491-4aa6-9446-8142633c0c22</String></Value>
 </UAVariable>
 <UAVariable NodeId="349162" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>fd6f47d1-7491-4aa6-9446-8142633c0c22</String></Value>
+	<Value><String>2a175c26-8071-4c66-86cf-a26c875dae44</String></Value>
 </UAVariable>
 <UAVariable NodeId="349163" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>cde7ce82-e99e-4324-b3bf-46b578f1ec52</String></Value>
+	<Value><String>Pipe_01</String></Value>
 </UAVariable>
 <UAVariable NodeId="349164" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>0</String></Value>
+	<Value><String>cde7ce82-e99e-4324-b3bf-46b578f1ec52</String></Value>
 </UAVariable>
 <UAVariable NodeId="349165" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>NA_Pipe01</String></Value>
+	<Value><String>0</String></Value>
 </UAVariable>
 <UAVariable NodeId="349166" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>2a175c26-8071-4c66-86cf-a26c875dae44</String></Value>
+	<Value><String>NA_Pipe01</String></Value>
 </UAVariable>
 <UAVariable NodeId="349169" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>Pipe_02</String></Value>
+	<Value><String>cde7ce82-e99e-4324-b3bf-46b578f1ec52</String></Value>
 </UAVariable>
 <UAVariable NodeId="349170" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>cde7ce82-e99e-4324-b3bf-46b578f1ec52</String></Value>
+	<Value><String>fd6f47d1-7491-4aa6-9446-8142633c0c22</String></Value>
 </UAVariable>
 <UAVariable NodeId="349171" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>7369b780-9b9b-4cfb-9b29-5a95e56e1473</String></Value>
+	<Value><String>Pipe_02</String></Value>
 </UAVariable>
 <UAVariable NodeId="349172" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>0</String></Value>
+	<Value><String>7369b780-9b9b-4cfb-9b29-5a95e56e1473</String></Value>
 </UAVariable>
 <UAVariable NodeId="349173" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>NA_Pipe01</String></Value>
+	<Value><String>0</String></Value>
 </UAVariable>
 <UAVariable NodeId="349174" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>fd6f47d1-7491-4aa6-9446-8142633c0c22</String></Value>
+	<Value><String>NA_Pipe01</String></Value>
 </UAVariable>
 <UAVariable NodeId="349177" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>Pipe_03</String></Value>
+	<Value><String>2ec85233-29b7-49c1-8e02-49817e791f27</String></Value>
 </UAVariable>
 <UAVariable NodeId="349178" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>2ec85233-29b7-49c1-8e02-49817e791f27</String></Value>
+	<Value><String>7369b780-9b9b-4cfb-9b29-5a95e56e1473</String></Value>
 </UAVariable>
 <UAVariable NodeId="349179" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>dd174dd1-c603-4260-a77d-fe80e8e34977</String></Value>
+	<Value><String>Pipe_03</String></Value>
 </UAVariable>
 <UAVariable NodeId="349180" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>0</String></Value>
+	<Value><String>dd174dd1-c603-4260-a77d-fe80e8e34977</String></Value>
 </UAVariable>
 <UAVariable NodeId="349181" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>NA_Pipe01</String></Value>
+	<Value><String>0</String></Value>
 </UAVariable>
 <UAVariable NodeId="349182" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>7369b780-9b9b-4cfb-9b29-5a95e56e1473</String></Value>
+	<Value><String>NA_Pipe01</String></Value>
 </UAVariable>
 <UAVariable NodeId="349185" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>NA_Pipe01_09</String></Value>
+	<Value><String>c57dbdb6-9f2d-4b6f-a8b2-6494d31c8759</String></Value>
 </UAVariable>
 <UAVariable NodeId="349186" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>c57dbdb6-9f2d-4b6f-a8b2-6494d31c8759</String></Value>
+	<Value><String>dd174dd1-c603-4260-a77d-fe80e8e34977</String></Value>
 </UAVariable>
 <UAVariable NodeId="349187" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>NA_Pipe01_09</String></Value>
 </UAVariable>
 <UAVariable NodeId="349188" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>0</String></Value>
+	<Value><String></String></Value>
 </UAVariable>
 <UAVariable NodeId="349189" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>NA_Pipe01</String></Value>
+	<Value><String>0</String></Value>
 </UAVariable>
 <UAVariable NodeId="349190" BrowseName="edge" DataType="String">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349053</Reference>
 	</References>
-	<Value><String>dd174dd1-c603-4260-a77d-fe80e8e34977</String></Value>
+	<Value><String>NA_Pipe01</String></Value>
 </UAVariable>
 <UAVariable NodeId="349193" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Strings" DataType="String">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Strings</DisplayName>
@@ -1833,42 +1833,42 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349066</Reference>
 	</References>
-	<Value><String>ConnectionHandler.ConnectionHandler</String></Value>
+	<Value><String>1.0.0.0</String></Value>
 </UAVariable>
 <UAVariable NodeId="349203" BrowseName="ConnectionHandler" DataType="String">
 	<DisplayName>ConnectionHandler</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349066</Reference>
 	</References>
-	<Value><String>1.0.0.0</String></Value>
+	<Value><String>\ConnectionHandler\ConnectionHandler\ModbusOPCConnectionHandler.dll</String></Value>
 </UAVariable>
 <UAVariable NodeId="349204" BrowseName="ConnectionHandler" DataType="String">
 	<DisplayName>ConnectionHandler</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349066</Reference>
 	</References>
-	<Value><String>\ConnectionHandler\ConnectionHandler\ModbusOPCConnectionHandler.dll</String></Value>
+	<Value><String>ConnectionHandler.ConnectionHandler</String></Value>
 </UAVariable>
 <UAVariable NodeId="349207" BrowseName="ConnectionHandler" DataType="String">
 	<DisplayName>ConnectionHandler</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349071</Reference>
 	</References>
-	<Value><String>ConnectionHandler.ConnectionHandler</String></Value>
+	<Value><String>1.0.0.0</String></Value>
 </UAVariable>
 <UAVariable NodeId="349208" BrowseName="ConnectionHandler" DataType="String">
 	<DisplayName>ConnectionHandler</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349071</Reference>
 	</References>
-	<Value><String>1.0.0.0</String></Value>
+	<Value><String>\ConnectionHandler\ConnectionHandler\ModbusOPCConnectionHandler.dll</String></Value>
 </UAVariable>
 <UAVariable NodeId="349209" BrowseName="ConnectionHandler" DataType="String">
 	<DisplayName>ConnectionHandler</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349071</Reference>
 	</References>
-	<Value><String>\ConnectionHandler\ConnectionHandler\ModbusOPCConnectionHandler.dll</String></Value>
+	<Value><String>ConnectionHandler.ConnectionHandler</String></Value>
 </UAVariable>
 <UAVariable NodeId="349212" BrowseName="Text" DataType="String">
 	<DisplayName>Text</DisplayName>
@@ -2120,7 +2120,7 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349160</Reference>
 	</References>
-	<Value><String>568</String></Value>
+	<Value><String>1063</String></Value>
 </UAVariable>
 <UAVariable NodeId="349288" BrowseName="edgeio" DataType="String">
 	<DisplayName>edgeio</DisplayName>
@@ -2141,7 +2141,7 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349160</Reference>
 	</References>
-	<Value><String>1063</String></Value>
+	<Value><String>568</String></Value>
 </UAVariable>
 <UAVariable NodeId="349293" BrowseName="edgepath" DataType="String">
 	<DisplayName>edgepath</DisplayName>
@@ -2176,7 +2176,7 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349168</Reference>
 	</References>
-	<Value><String>1278</String></Value>
+	<Value><String>1100</String></Value>
 </UAVariable>
 <UAVariable NodeId="349300" BrowseName="edgeio" DataType="String">
 	<DisplayName>edgeio</DisplayName>
@@ -2197,7 +2197,7 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349168</Reference>
 	</References>
-	<Value><String>1100</String></Value>
+	<Value><String>1278</String></Value>
 </UAVariable>
 <UAVariable NodeId="349305" BrowseName="edgepath" DataType="String">
 	<DisplayName>edgepath</DisplayName>
@@ -2232,7 +2232,7 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349176</Reference>
 	</References>
-	<Value><String>524</String></Value>
+	<Value><String>299</String></Value>
 </UAVariable>
 <UAVariable NodeId="349312" BrowseName="edgeio" DataType="String">
 	<DisplayName>edgeio</DisplayName>
@@ -2253,7 +2253,7 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349176</Reference>
 	</References>
-	<Value><String>299</String></Value>
+	<Value><String>524</String></Value>
 </UAVariable>
 <UAVariable NodeId="349317" BrowseName="edgepath" DataType="String">
 	<DisplayName>edgepath</DisplayName>
@@ -2288,7 +2288,7 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349184</Reference>
 	</References>
-	<Value><String>1278</String></Value>
+	<Value><String>652</String></Value>
 </UAVariable>
 <UAVariable NodeId="349324" BrowseName="edgeio" DataType="String">
 	<DisplayName>edgeio</DisplayName>
@@ -2309,7 +2309,7 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349184</Reference>
 	</References>
-	<Value><String>652</String></Value>
+	<Value><String>1278</String></Value>
 </UAVariable>
 <UAVariable NodeId="349329" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Language" DataType="String">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Language</DisplayName>
@@ -2323,35 +2323,35 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349195</Reference>
 	</References>
-	<Value><String>-1</String></Value>
+	<Value><String>2</String></Value>
 </UAVariable>
 <UAVariable NodeId="349339" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Connector" DataType="String">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Connector</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349195</Reference>
 	</References>
-	<Value><String>true</String></Value>
+	<Value><String>4096</String></Value>
 </UAVariable>
 <UAVariable NodeId="349340" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Connector" DataType="String">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Connector</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349195</Reference>
 	</References>
-	<Value><String>Wago.MODBUS</String></Value>
+	<Value><String>-1</String></Value>
 </UAVariable>
 <UAVariable NodeId="349341" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Connector" DataType="String">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Connector</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349195</Reference>
 	</References>
-	<Value><String>2</String></Value>
+	<Value><String>true</String></Value>
 </UAVariable>
 <UAVariable NodeId="349342" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Connector" DataType="String">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Connector</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349195</Reference>
 	</References>
-	<Value><String>4096</String></Value>
+	<Value><String>Wago.MODBUS</String></Value>
 </UAVariable>
 <UAVariable NodeId="349343" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Connector" DataType="String">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Connector</DisplayName>
@@ -2365,14 +2365,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349241</Reference>
 	</References>
-	<Value><String>Cleaning</String></Value>
+	<Value><String></String></Value>
 </UAVariable>
 <UAVariable NodeId="349351" BrowseName="service" DataType="String">
 	<DisplayName>service</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349241</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>Cleaning</String></Value>
 </UAVariable>
 <UAVariable NodeId="349352" BrowseName="service" DataType="String">
 	<DisplayName>service</DisplayName>
@@ -2386,14 +2386,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349241</Reference>
 	</References>
-	<Value><String>Tempering</String></Value>
+	<Value><String></String></Value>
 </UAVariable>
 <UAVariable NodeId="349356" BrowseName="service" DataType="String">
 	<DisplayName>service</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349241</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>Tempering</String></Value>
 </UAVariable>
 <UAVariable NodeId="349357" BrowseName="service" DataType="String">
 	<DisplayName>service</DisplayName>
@@ -2701,14 +2701,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349414</Reference>
 	</References>
-	<Value><String>local:device.icon</String></Value>
+	<Value><String>224-101.icon</String></Value>
 </UAVariable>
 <UAVariable NodeId="349443" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}File" DataType="String">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}File</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349414</Reference>
 	</References>
-	<Value><String>224-101.icon</String></Value>
+	<Value><String>local:device.icon</String></Value>
 </UAVariable>
 <UAVariable NodeId="349448" BrowseName="Text" DataType="String">
 	<DisplayName>Text</DisplayName>
@@ -2729,14 +2729,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349437</Reference>
 	</References>
-	<Value><String>Cleaner_Regel_D</String></Value>
+	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
 </UAVariable>
 <UAVariable NodeId="349453" BrowseName="ServiceInterfaceInfo" DataType="String">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349437</Reference>
 	</References>
-	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
+	<Value><String>Cleaner_Regel_D</String></Value>
 </UAVariable>
 <UAVariable NodeId="349454" BrowseName="ServiceInterfaceInfo" DataType="String">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
@@ -2750,14 +2750,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349437</Reference>
 	</References>
-	<Value><String>Cleaner_Regel_I</String></Value>
+	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
 </UAVariable>
 <UAVariable NodeId="349458" BrowseName="ServiceInterfaceInfo" DataType="String">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349437</Reference>
 	</References>
-	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
+	<Value><String>Cleaner_Regel_I</String></Value>
 </UAVariable>
 <UAVariable NodeId="349459" BrowseName="ServiceInterfaceInfo" DataType="String">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
@@ -2771,14 +2771,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349437</Reference>
 	</References>
-	<Value><String>Cleaner_Zeit</String></Value>
+	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
 </UAVariable>
 <UAVariable NodeId="349463" BrowseName="ServiceInterfaceInfo" DataType="String">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349437</Reference>
 	</References>
-	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
+	<Value><String>Cleaner_Zeit</String></Value>
 </UAVariable>
 <UAVariable NodeId="349464" BrowseName="ServiceInterfaceInfo" DataType="String">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
@@ -2792,14 +2792,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349437</Reference>
 	</References>
-	<Value><String>CleanerVorlauftemp</String></Value>
+	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
 </UAVariable>
 <UAVariable NodeId="349468" BrowseName="ServiceInterfaceInfo" DataType="String">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349437</Reference>
 	</References>
-	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
+	<Value><String>CleanerVorlauftemp</String></Value>
 </UAVariable>
 <UAVariable NodeId="349469" BrowseName="ServiceInterfaceInfo" DataType="String">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
@@ -2813,14 +2813,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349439</Reference>
 	</References>
-	<Value><String>SollTemp</String></Value>
+	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
 </UAVariable>
 <UAVariable NodeId="349473" BrowseName="ServiceInterfaceInfo" DataType="String">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349439</Reference>
 	</References>
-	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
+	<Value><String>SollTemp</String></Value>
 </UAVariable>
 <UAVariable NodeId="349474" BrowseName="ServiceInterfaceInfo" DataType="String">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
@@ -2834,14 +2834,14 @@
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349439</Reference>
 	</References>
-	<Value><String>CurrentTemp</String></Value>
+	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
 </UAVariable>
 <UAVariable NodeId="349478" BrowseName="ServiceInterfaceInfo" DataType="String">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">349439</Reference>
 	</References>
-	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
+	<Value><String>CurrentTemp</String></Value>
 </UAVariable>
 <UAVariable NodeId="349479" BrowseName="ServiceInterfaceInfo" DataType="String">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>

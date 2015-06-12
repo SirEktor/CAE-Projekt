@@ -1,0 +1,242 @@
+<MTPManifest xmlns:ns0="http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd">
+  <MTPId Guid="1f4521de-fc2a-4cee-a192-ca7b48dfc299" Version="1.0.0.0" />
+   
+ 
+ <DeviceDriver Type="Module">
+    <DeviceDriverId Guid="fbf6c645-0c7e-4260-9ae2-6bbdc30863c0" Version="1.0.0.0" />
+    
+	<DIMAVersion>1.0.0.0</DIMAVersion>
+    
+	<DescriptionDomain>
+      <Control Active="true" FileName="\DeviceDriver\Control\Control.xml" Version="1.0.0.0"><control Version="9/5/2014 6:14:45 PM">
+	<pconnection server="localhost" type="OPCDA">
+		
+		<pvalue description="" name="PLC_PRG.Panel_visu.L001Value" pvid="c5232ef6-6cd6-4387-b7e1-fec9f5a5020c">
+			
+			<adress>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.L001Value</adress>
+			<accesstyp>READWRITE</accesstyp>
+			<datatype>REAL</datatype>
+		</pvalue>
+		<pvalue description="" name="PLC_PRG.Panel_visu.P001Running" pvid="5de8891b-4319-4d29-84c4-6281588267e1">
+			<adress>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.P001Running</adress>
+			<accesstyp>READWRITE</accesstyp>
+			<datatype>BOOL</datatype>
+		</pvalue>
+		<pvalue description="" name="PLC_PRG.Panel_visu.X001Value" pvid="77ab7d13-7b30-4dc6-b7eb-85c7614245b8">
+			<adress>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Value</adress>
+			<accesstyp>READWRITE</accesstyp>
+			<datatype>BOOL</datatype>
+		</pvalue>
+		<pvalue description="" name="PLC_PRG.Panel_visu.X001Open" pvid="f60b023a-f610-4ae2-ac02-57586769d15d">
+			<adress>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Open</adress>
+			<accesstyp>READWRITE</accesstyp>
+			<datatype>BOOL</datatype>
+		</pvalue>
+		<pvalue description="" name="PLC_PRG.Panel_visu.X001Closed" pvid="8c79380a-f18b-4f47-b7bd-263da5968b4a">
+			<adress>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Closed</adress>
+			<accesstyp>READWRITE</accesstyp>
+			<datatype>BOOL</datatype>
+		</pvalue>
+	</pconnection>
+
+
+	<modules>
+		<modul id="" name="Plant_Module_1" ref="">
+			<services count="2">
+				<service id="" name="Cleaning" ref="">
+					<ServiceInterfaceInfos>
+						<ServiceInterfaceInfo name="Cleaner_Regel_D" pvid="f60b023a-f610-4ae2-ac02-57586769d15d" ref="" />
+						<ServiceInterfaceInfo name="Cleaner_Regel_I" pvid="f60b023a-f610-4ae2-ac02-57586769d15d" ref="" />
+						<ServiceInterfaceInfo name="Cleaner_Zeit" pvid="f60b023a-f610-4ae2-ac02-57586769d15d" ref="" />
+						<ServiceInterfaceInfo name="CleanerVorlauftemp" pvid="f60b023a-f610-4ae2-ac02-57586769d15d" ref="" />
+					</ServiceInterfaceInfos>
+				</service>
+				<service id="" name="Tempering" ref="">
+					<ServiceInterfaceInfos>
+						<ServiceInterfaceInfo name="SollTemp" pvid="f60b023a-f610-4ae2-ac02-57586769d15d" ref="" />
+						<ServiceInterfaceInfo name="CurrentTemp" pvid="f60b023a-f610-4ae2-ac02-57586769d15d" ref="" />
+					</ServiceInterfaceInfos>
+				</service>
+			</services>
+		</modul>
+	</modules>
+</control></Control>
+      <HMI Active="true" FileName="\DeviceDriver\HMI\hmi.xml" Version="1.0.0.0"><hmi>
+	 
+	<pconnection server="localhost" type="OPCDA">
+		
+		<pvalue description="" name="PLC_PRG.Panel_visu.L001Value" pvid="c5232ef6-6cd6-4387-b7e1-fec9f5a5020c">
+			
+			<adress>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.L001Value</adress>
+			<accesstyp>READWRITE</accesstyp>
+			<datatype>REAL</datatype>
+		</pvalue>
+		<pvalue description="" name="PLC_PRG.Panel_visu.P001Running" pvid="5de8891b-4319-4d29-84c4-6281588267e1">
+			<adress>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.P001Running</adress>
+			<accesstyp>READWRITE</accesstyp>
+			<datatype>BOOL</datatype>
+		</pvalue>
+		<pvalue description="" name="PLC_PRG.Panel_visu.X001Value" pvid="77ab7d13-7b30-4dc6-b7eb-85c7614245b8">
+			<adress>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Value</adress>
+			<accesstyp>READWRITE</accesstyp>
+			<datatype>BOOL</datatype>
+		</pvalue>
+		<pvalue description="" name="PLC_PRG.Panel_visu.X001Open" pvid="f60b023a-f610-4ae2-ac02-57586769d15d">
+			<adress>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Open</adress>
+			<accesstyp>READWRITE</accesstyp>
+			<datatype>BOOL</datatype>
+		</pvalue>
+		<pvalue description="" name="PLC_PRG.Panel_visu.X001Closed" pvid="8c79380a-f18b-4f47-b7bd-263da5968b4a">
+			<adress>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Closed</adress>
+			<accesstyp>READWRITE</accesstyp>
+			<datatype>BOOL</datatype>
+		</pvalue>
+	</pconnection>
+	
+	 
+	<graph h="1200" id="Visu_Temp" name="Visu_Temp" w="1920">
+		
+		<node h="469" id="2a175c26-8071-4c66-86cf-a26c875dae44" ref="" role="NA_TankLevel01" tagname="L001" w="371" x="446" y="594">
+			<data>
+				
+				<variable informationtag="NA_351-41-02" pvid="c5232ef6-6cd6-4387-b7e1-fec9f5a5020c" ref="http://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=351-41-02" />
+			</data>	
+		</node>
+		<node h="145" id="7369b780-9b9b-4cfb-9b29-5a95e56e1473" role="NA_Pump01" tagname="P001" w="95" x="937" y="1025">
+			<data>
+				<variable informationtag="NA_351-41-02" pvid="5de8891b-4319-4d29-84c4-6281588267e1" ref="http://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=351-41-02" />
+			</data>
+		</node>	
+		<node h="153" id="dd174dd1-c603-4260-a77d-fe80e8e34977" ref="http://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=551-14-03" role="NA_Valve01" tagname="X001" w="106" x="914" y="354">
+			<data>
+				<variable informationtag="NA_351-41-02" pvid="77ab7d13-7b30-4dc6-b7eb-85c7614245b8" ref="http://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=351-41-02" />
+				<variable informationtag="NA_351-51-01-O" pvid="f60b023a-f610-4ae2-ac02-57586769d15d" ref="" />
+				<variable informationtag="NA_351-51-01-C" pvid="8c79380a-f18b-4f47-b7bd-263da5968b4a" ref="" />
+			</data>
+		</node>
+
+	
+		<edge id="fd6f47d1-7491-4aa6-9446-8142633c0c22" name="Pipe_01" overlap="0" role="NA_Pipe01" source="2a175c26-8071-4c66-86cf-a26c875dae44" target="cde7ce82-e99e-4324-b3bf-46b578f1ec52">
+			<edgepath sx="0" sy="0" tx="0" ty="0" />
+			<edgeio x1="568" x2="568" y1="1100" y2="1063" />
+		</edge>
+		<edge id="cde7ce82-e99e-4324-b3bf-46b578f1ec52" name="Pipe_02" overlap="0" role="NA_Pipe01" source="fd6f47d1-7491-4aa6-9446-8142633c0c22" target="7369b780-9b9b-4cfb-9b29-5a95e56e1473">
+			<edgepath sx="0" sy="0" tx="0" ty="0" />
+			<edgeio x1="565" x2="1278" y1="1100" y2="1100" />
+		</edge>
+		<edge id="2ec85233-29b7-49c1-8e02-49817e791f27" name="Pipe_03" overlap="0" role="NA_Pipe01" source="7369b780-9b9b-4cfb-9b29-5a95e56e1473" target="dd174dd1-c603-4260-a77d-fe80e8e34977">
+			<edgepath sx="0" sy="0" tx="0" ty="0" />
+			<edgeio x1="524" x2="524" y1="600" y2="299" />
+		</edge>
+		<edge id="c57dbdb6-9f2d-4b6f-a8b2-6494d31c8759" name="NA_Pipe01_09" overlap="0" role="NA_Pipe01" source="dd174dd1-c603-4260-a77d-fe80e8e34977" target="">
+			<edgepath sx="0" sy="0" tx="0" ty="0" />
+			<edgeio x1="817" x2="1278" y1="652" y2="652" />
+		</edge>
+		
+	</graph>
+</hmi></HMI>
+	  
+    </DescriptionDomain>
+  </DeviceDriver>
+  
+   
+  <DeviceTypes>
+    <DeviceType>
+      <DeviceTypeId Guid="dde1b33d-1f6e-4e01-854d-123b4c48c293" Version="1.0.0.0" />
+      <Name>Plant Module 1</Name>
+      <Series>0</Series>
+      <ManufacturerName>Hersteller ABZ</ManufacturerName>
+	  
+      <DeviceDescriptions>
+        <DeviceDescription FileName="\DeviceDescriptions\CDS\PlantModule.devdesc.xml" Type="CoDeSys"><ns0:DeviceDescription>
+  <ns0:Strings namespace="local">
+    <ns0:Language lang="en">
+      <ns0:String identifier="type.name">Plant Module 3</ns0:String>
+      <ns0:String identifier="type.desc">Plant Module 3</ns0:String>
+      <ns0:String identifier="vendor">MM</ns0:String>
+    </ns0:Language>
+  </ns0:Strings>
+  <ns0:Device>
+    <ns0:DeviceIdentification>
+      <ns0:Type>8545</ns0:Type>
+      <ns0:Id>3362 7800</ns0:Id>
+      
+      <ns0:Version>1.0.0.0</ns0:Version>
+    </ns0:DeviceIdentification>
+    <ns0:DeviceInfo>
+      <ns0:Name name="local:type.name">Plant Module 3</ns0:Name>
+      <ns0:Description name="local:type.desc">Plant Module 3</ns0:Description>
+      <ns0:Vendor name="local:vendor">MM</ns0:Vendor>
+      <ns0:OrderNumber>0900-0001</ns0:OrderNumber>
+      <ns0:Image>DevDesc.jpg</ns0:Image>
+      <ns0:Icon>DevDesc.ico</ns0:Icon>
+      <ns0:AdditionalFiles>
+        <ns0:File key="224-101.icon" name="local:device.icon" />
+      </ns0:AdditionalFiles>
+    </ns0:DeviceInfo>
+    <ns0:DriverInfo>
+      <ns0:RequiredLib identifier="iostandardlib" libname="IoStandard" vendor="System" version="3.5.4.0" />
+    </ns0:DriverInfo>
+    <ns0:Connector connectorId="2" explicit="true" hostpath="-1" interface="Wago.MODBUS" moduleType="4096" role="parent">
+      <ns0:InterfaceName name="local:itf.modbus.name">MODBUS</ns0:InterfaceName>
+      <ns0:Fixed>
+        <ns0:Module>
+          
+          <ns0:DeviceIdentification deviceId="1006 0001" deviceType="32777" version="1.1.1.7" />
+        </ns0:Module>
+      </ns0:Fixed>
+      <ns0:DriverInfo needsBusCycle="true" />
+      <ns0:HostParameterSet />
+    </ns0:Connector>
+    <ns0:DeviceParameterSet>
+    </ns0:DeviceParameterSet>
+    <ns0:Functional>
+      <ns0:ChildObject>
+        <ns0:ObjectGuid>8ceeba4e-ac7a-4fbd-9415-bfb2d98668ab</ns0:ObjectGuid>
+        <ns0:ObjectName>Plc Logic</ns0:ObjectName>
+      </ns0:ChildObject>
+      <ns0:Attribute name="StdCommunicationLink">True</ns0:Attribute>
+    </ns0:Functional>
+  </ns0:Device>
+</ns0:DeviceDescription></DeviceDescription>
+		<DeviceDescription FileName="\DeviceDescriptions\PCS7\PlantModule.devdesc.xml" Type="SiemensPCS7" />
+      </DeviceDescriptions>
+	  
+	   
+	  <Interfaces>
+        <Interface FrameDirection="Bottom" FramePosition="0.2" InterfaceId="2" IsExplicit="true" PhysicalInterfaceType="ETHERNET">
+          <Connector Id="2" ProtocolId="CCEF4A79-DEB1-42E3-9BD8-6AB8DEE924AA" Type="required">
+			<ConnectionParameter IP="139.11.207.102" Mask="255.255.255.0" />
+			
+		  </Connector>
+          
+          <Connector Id="7" ProtocolId="B617FCF1-08B0-468B-85BA-59F9E8091606" Type="supported">
+            <ConnectionHandler Assembly="\ConnectionHandler\ConnectionHandler\ModbusOPCConnectionHandler.dll" Type="ConnectionHandler.ConnectionHandler" Version="1.0.0.0" />
+          </Connector>
+          <Connector Id="8" ProtocolId="B617FCF1-08B0-468B-85BA-59F9E8091606" Type="required">
+            <ConnectionHandler Assembly="\ConnectionHandler\ConnectionHandler\ModbusOPCConnectionHandler.dll" Type="ConnectionHandler.ConnectionHandler" Version="1.0.0.0" />
+          </Connector>
+        </Interface>
+      </Interfaces>
+      
+	  
+	 
+     
+      <Images>
+        <Image FileName="\Images\CatalogImage\PlantModule.png" ImageType="CatalogImage" />
+        <Image FileName="\Images\NetworkImage\PlantModule.png" ImageType="NetworkImage" />
+        <Image FileName="\Images\Icons\PlaceholderDevice.png" ImageType="Icon" />
+      </Images>
+     
+ 	  <Helpfiles />
+      
+	  <Manuals />
+	  
+      
+	  <CatalogNodeReferences>
+        <CatalogNodeRef>Plant_Modules</CatalogNodeRef>
+      </CatalogNodeReferences>
+	  
+    </DeviceType>
+  </DeviceTypes>
+ </MTPManifest>
