@@ -1,0 +1,19 @@
+<control Version="03.07.2015 version_1">
+    <pconnection server="" type="">
+        <pvalue description="" name="" pvid="">
+            <addresse />
+            <acesstype />
+            <datatype />
+        </pvalue>
+        <pvalue description="" name="" pvid="">
+            <addresse />
+            <acesstype />
+            <datatype />
+        </pvalue>
+        <pvalue description="" name="" pvid="">
+            <addresse />
+            <acesstype />
+            <datatype />
+        </pvalue>
+    </pconnection>
+</control>
