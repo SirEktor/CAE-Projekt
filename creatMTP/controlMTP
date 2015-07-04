@@ -1,0 +1,59 @@
+# *-* coding=utf-8
+from xml.etree.ElementTree import ElementTree
+from xml.etree.ElementTree import Element
+from xml.etree.ElementTree import SubElement
+from xml.etree.ElementTree import dump
+from xml.etree.ElementTree import Comment
+from xml.etree.ElementTree import tostring
+import os
+
+filename="control_MTP.xml"
+
+def CreateXml(Num):
+    #print(Num)
+    creat_control=ElementTree()
+    control=Element("control",{"Version":"03.07.2015 version_1"})
+   # pconnection=Element("pconnection",{"pvid":"","name":"","description":""})
+    creat_control._setroot(control)
+#Element("pconnection",){"pvid":"","name":"","description":""}
+    pconnection=Element("pconnection",{"type":"","server":""})
+    control.append(pconnection)
+    
+    for i in range(Num):
+            pvalue=Element("pvalue",{"pvid":"","name":"","description":""})
+            address=Element("addresse")
+            accesstype=Element("acesstype")
+            datatype=Element("datatype")
+            pvalue.append(address)
+            pvalue.append(accesstype)
+            pvalue.append(datatype)
+            
+            pconnection.append(pvalue)
+            print(i)
+            
+    
+    
+    indent(control)
+    return creat_control 
+
+
+def indent(elem,level=0):
+    i ="\n"+level*"    "
+    print (elem);
+    if len(elem):
+        if not elem.text or not elem.text.strip():
+            elem.text = i + "    "
+        for e in elem:
+            print (e)
+            indent(e,level+1)
+        if not e.tail or not e.tail.strip():
+            e.tail =i
+    if level and (not elem.tail or not elem.tail.strip()):
+        elem.tail =i
+    return elem
+if __name__ == '__main__':
+    #CreatXml (Num) Num definie how many pvalue will be come from COMOS 
+    creat_control=CreateXml(3)
+    creat_control.write(filename,"utf-8")
+   
+
