@@ -69,9 +69,10 @@ class OPCUAXMLVar:
             for r in self.references:
                 text+="\t\t"+str(r)+"\n"
             text+="\t</References>\n"
-            text+="\t<Value><String>{4}</String></Value>\n"
+            text+="\t<Value><{5}>{4}</{5}></Value>\n"
         text+="</UAVariable>\n"
-        return text.format(self.nodeid,self.browse_name,self.display_name,self.data_type,self.value.replace("&","&amp;").replace("\\","/"))
+        return text.format(self.nodeid,self.browse_name,self.display_name,
+                           self.data_type,self.value.replace("&","&amp;").replace("\\","/"),self.data_type)
 
 if __name__ == '__main__':
     # Debug
@@ -121,7 +122,8 @@ if __name__ == '__main__':
     var_list=[]     # Liste aller gefundenen OPCUA-Variabeln
     
     # Wuzelobjekt der Struktur erzeugen - Manifest-TAG
-    object_list.append(OPCUAXMLObject(nodeid,str(mtf.tag),[OPCUAXMLReference("HasComponent",str(85),"false")]))
+    object_list.append(OPCUAXMLObject(nodeid,str(mtf.tag),
+                                      [OPCUAXMLReference("HasComponent",str(85),"false")]))
     # ne... Liste mit den nächsten XML-Elementen für den nächsten Iterationsschritt
     ne=[[mtf,nodeid]]
     nodeid+=1
@@ -137,6 +139,48 @@ if __name__ == '__main__':
         for e in tne:
             # Alle Kinder-Elemente iterieren
             for se in e[0]:
+                # Wenn Element PValue ist dann anders behandeln
+                if(se.tag=="pvalue"):
+                                        
+                    # Unterelemente finden
+                    datatype=se.find("./datatype")
+                    access=se.find("./accesstyp")
+                    addr=se.find("./adress")
+                    
+                    # Debug-Ausgabe
+                    if debug:
+                        print("Name: "+se.attrib['name'])
+                        print("PVID: "+se.attrib['pvid'])
+                        print("Datentyp: "+datatype.text)
+                        print("Access: "+access.text)
+                        print("Adresse: "+addr.text)
+                    
+                    # Datentyp anpassen
+                    datatypestr="String"
+                    if(datatype.text=="BOOL"):
+                        datatypestr="Boolean" 
+                    elif(datatype.text=="REAL"):
+                        datatypestr="Double"  
+                    
+                    # PValue-Knoten erzeugen
+                    var_list.append(OPCUAXMLVar(nodeid,se.attrib['name'],[
+                                    OPCUAXMLReference("HasProperty",str(e[1]),"false")],
+                                                datatypestr,""))
+                    nodeid+=1
+                    # Adresse hinzufügen
+                    var_list.append(OPCUAXMLVar(nodeid,"address",[
+                                    OPCUAXMLReference("HasProperty",str(nodeid-1),"false")],
+                                                "String",addr.text))
+                    nodeid+=1
+                    # PVID hinzufügen
+                    var_list.append(OPCUAXMLVar(nodeid,"pvid",[
+                                    OPCUAXMLReference("HasProperty",str(nodeid-2),"false")],
+                                                "String",se.attrib['pvid']))
+                    nodeid+=1
+                    
+                    continue
+                
+                
                 # TAG-Namen bearbeiten
                 
                 # Debugausgabe
@@ -181,7 +225,42 @@ if __name__ == '__main__':
                 
     
     # Alle Knoten als ihre XML-Repräsentation ausgeben
-    text="<UANodeSet Version=\"1.02\" LastModified=\"2013-03-06T05:36:43.4892317Z\"><Aliases><Alias Alias=\"Boolean\">i=1</Alias><Alias Alias=\"SByte\">i=2</Alias><Alias Alias=\"Byte\">i=3</Alias><Alias Alias=\"Int16\">i=4</Alias><Alias Alias=\"UInt16\">i=5</Alias><Alias Alias=\"Int32\">i=6</Alias><Alias Alias=\"UInt32\">i=7</Alias><Alias Alias=\"Int64\">i=8</Alias><Alias Alias=\"UInt64\">i=9</Alias><Alias Alias=\"Float\">i=10</Alias><Alias Alias=\"Double\">i=11</Alias><Alias Alias=\"DateTime\">i=13</Alias><Alias Alias=\"String\">i=12</Alias><Alias Alias=\"ByteString\">i=15</Alias><Alias Alias=\"Guid\">i=14</Alias><Alias Alias=\"XmlElement\">i=16</Alias><Alias Alias=\"NodeId\">i=17</Alias><Alias Alias=\"ExpandedNodeId\">i=18</Alias><Alias Alias=\"QualifiedName\">i=20</Alias><Alias Alias=\"LocalizedText\">i=21</Alias><Alias Alias=\"StatusCode\">i=19</Alias><Alias Alias=\"Structure\">i=22</Alias><Alias Alias=\"Number\">i=26</Alias><Alias Alias=\"Integer\">i=27</Alias><Alias Alias=\"UInteger\">i=28</Alias><Alias Alias=\"HasComponent\">i=47</Alias><Alias Alias=\"HasProperty\">i=46</Alias><Alias Alias=\"Organizes\">i=35</Alias><Alias Alias=\"HasEventSource\">i=36</Alias><Alias Alias=\"HasNotifier\">i=48</Alias><Alias Alias=\"HasSubtype\">i=45</Alias><Alias Alias=\"HasTypeDefinition\">i=40</Alias><Alias Alias=\"HasModellingRule\">i=37</Alias><Alias Alias=\"HasEncoding\">i=38</Alias><Alias Alias=\"HasDescription\">i=39</Alias></Aliases>\n"
+    text="""<UANodeSet Version=\"1.02\" LastModified=\"2013-03-06T05:36:43.4892317Z\">
+    <Aliases><Alias Alias=\"Boolean\">i=1</Alias>
+    <Alias Alias=\"SByte\">i=2</Alias>
+    <Alias Alias=\"Byte\">i=3</Alias>
+    <Alias Alias=\"Int16\">i=4</Alias>
+    <Alias Alias=\"UInt16\">i=5</Alias>
+    <Alias Alias=\"Int32\">i=6</Alias>
+    <Alias Alias=\"UInt32\">i=7</Alias>
+    <Alias Alias=\"Int64\">i=8</Alias>
+    <Alias Alias=\"UInt64\">i=9</Alias>
+    <Alias Alias=\"Float\">i=10</Alias>
+    <Alias Alias=\"Double\">i=11</Alias>
+    <Alias Alias=\"DateTime\">i=13</Alias>
+    <Alias Alias=\"String\">i=12</Alias>
+    <Alias Alias=\"ByteString\">i=15</Alias>
+    <Alias Alias=\"Guid\">i=14</Alias>
+    <Alias Alias=\"XmlElement\">i=16</Alias>
+    <Alias Alias=\"NodeId\">i=17</Alias>
+    <Alias Alias=\"ExpandedNodeId\">i=18</Alias>
+    <Alias Alias=\"QualifiedName\">i=20</Alias>
+    <Alias Alias=\"LocalizedText\">i=21</Alias>
+    <Alias Alias=\"StatusCode\">i=19</Alias>
+    <Alias Alias=\"Structure\">i=22</Alias>
+    <Alias Alias=\"Number\">i=26</Alias>
+    <Alias Alias=\"Integer\">i=27</Alias>
+    <Alias Alias=\"UInteger\">i=28</Alias>
+    <Alias Alias=\"HasComponent\">i=47</Alias>
+    <Alias Alias=\"HasProperty\">i=46</Alias>
+    <Alias Alias=\"Organizes\">i=35</Alias>
+    <Alias Alias=\"HasEventSource\">i=36</Alias>
+    <Alias Alias=\"HasNotifier\">i=48</Alias>
+    <Alias Alias=\"HasSubtype\">i=45</Alias>
+    <Alias Alias=\"HasTypeDefinition\">i=40</Alias>
+    <Alias Alias=\"HasModellingRule\">i=37</Alias>
+    <Alias Alias=\"HasEncoding\">i=38</Alias>
+    <Alias Alias=\"HasDescription\">i=39</Alias></Aliases>\n"""
     for o in object_list:
         text+=str(o)
     for v in var_list:
@@ -196,4 +275,3 @@ if __name__ == '__main__':
     
     # temporäre Daten löschen
     shutil.rmtree(tmp_dir)
-

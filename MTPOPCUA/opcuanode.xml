@@ -1,4 +1,39 @@
-<UANodeSet Version="1.02" LastModified="2013-03-06T05:36:43.4892317Z"><Aliases><Alias Alias="Boolean">i=1</Alias><Alias Alias="SByte">i=2</Alias><Alias Alias="Byte">i=3</Alias><Alias Alias="Int16">i=4</Alias><Alias Alias="UInt16">i=5</Alias><Alias Alias="Int32">i=6</Alias><Alias Alias="UInt32">i=7</Alias><Alias Alias="Int64">i=8</Alias><Alias Alias="UInt64">i=9</Alias><Alias Alias="Float">i=10</Alias><Alias Alias="Double">i=11</Alias><Alias Alias="DateTime">i=13</Alias><Alias Alias="String">i=12</Alias><Alias Alias="ByteString">i=15</Alias><Alias Alias="Guid">i=14</Alias><Alias Alias="XmlElement">i=16</Alias><Alias Alias="NodeId">i=17</Alias><Alias Alias="ExpandedNodeId">i=18</Alias><Alias Alias="QualifiedName">i=20</Alias><Alias Alias="LocalizedText">i=21</Alias><Alias Alias="StatusCode">i=19</Alias><Alias Alias="Structure">i=22</Alias><Alias Alias="Number">i=26</Alias><Alias Alias="Integer">i=27</Alias><Alias Alias="UInteger">i=28</Alias><Alias Alias="HasComponent">i=47</Alias><Alias Alias="HasProperty">i=46</Alias><Alias Alias="Organizes">i=35</Alias><Alias Alias="HasEventSource">i=36</Alias><Alias Alias="HasNotifier">i=48</Alias><Alias Alias="HasSubtype">i=45</Alias><Alias Alias="HasTypeDefinition">i=40</Alias><Alias Alias="HasModellingRule">i=37</Alias><Alias Alias="HasEncoding">i=38</Alias><Alias Alias="HasDescription">i=39</Alias></Aliases>
+<UANodeSet Version="1.02" LastModified="2013-03-06T05:36:43.4892317Z">
+    <Aliases><Alias Alias="Boolean">i=1</Alias>
+    <Alias Alias="SByte">i=2</Alias>
+    <Alias Alias="Byte">i=3</Alias>
+    <Alias Alias="Int16">i=4</Alias>
+    <Alias Alias="UInt16">i=5</Alias>
+    <Alias Alias="Int32">i=6</Alias>
+    <Alias Alias="UInt32">i=7</Alias>
+    <Alias Alias="Int64">i=8</Alias>
+    <Alias Alias="UInt64">i=9</Alias>
+    <Alias Alias="Float">i=10</Alias>
+    <Alias Alias="Double">i=11</Alias>
+    <Alias Alias="DateTime">i=13</Alias>
+    <Alias Alias="String">i=12</Alias>
+    <Alias Alias="ByteString">i=15</Alias>
+    <Alias Alias="Guid">i=14</Alias>
+    <Alias Alias="XmlElement">i=16</Alias>
+    <Alias Alias="NodeId">i=17</Alias>
+    <Alias Alias="ExpandedNodeId">i=18</Alias>
+    <Alias Alias="QualifiedName">i=20</Alias>
+    <Alias Alias="LocalizedText">i=21</Alias>
+    <Alias Alias="StatusCode">i=19</Alias>
+    <Alias Alias="Structure">i=22</Alias>
+    <Alias Alias="Number">i=26</Alias>
+    <Alias Alias="Integer">i=27</Alias>
+    <Alias Alias="UInteger">i=28</Alias>
+    <Alias Alias="HasComponent">i=47</Alias>
+    <Alias Alias="HasProperty">i=46</Alias>
+    <Alias Alias="Organizes">i=35</Alias>
+    <Alias Alias="HasEventSource">i=36</Alias>
+    <Alias Alias="HasNotifier">i=48</Alias>
+    <Alias Alias="HasSubtype">i=45</Alias>
+    <Alias Alias="HasTypeDefinition">i=40</Alias>
+    <Alias Alias="HasModellingRule">i=37</Alias>
+    <Alias Alias="HasEncoding">i=38</Alias>
+    <Alias Alias="HasDescription">i=39</Alias></Aliases>
 <UAObject NodeId="i=20000" BrowseName="MTPManifest">
 	<DisplayName>MTPManifest</DisplayName>
 	<References>
@@ -221,676 +256,436 @@
 		<Reference ReferenceType="HasComponent" IsForward="false">i=20046</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20088" BrowseName="pvalue">
-	<DisplayName>pvalue</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20063</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20092" BrowseName="pvalue">
-	<DisplayName>pvalue</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20063</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20096" BrowseName="pvalue">
-	<DisplayName>pvalue</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20063</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20100" BrowseName="pvalue">
-	<DisplayName>pvalue</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20063</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20104" BrowseName="pvalue">
-	<DisplayName>pvalue</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20063</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20108" BrowseName="modul">
+<UAObject NodeId="i=20103" BrowseName="modul">
 	<DisplayName>modul</DisplayName>
 	<References>
 		<Reference ReferenceType="HasComponent" IsForward="false">i=20066</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20112" BrowseName="pvalue">
-	<DisplayName>pvalue</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20067</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20116" BrowseName="pvalue">
-	<DisplayName>pvalue</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20067</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20120" BrowseName="pvalue">
-	<DisplayName>pvalue</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20067</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20124" BrowseName="pvalue">
-	<DisplayName>pvalue</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20067</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20128" BrowseName="pvalue">
-	<DisplayName>pvalue</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20067</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20132" BrowseName="node">
+<UAObject NodeId="i=20122" BrowseName="node">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasComponent" IsForward="false">i=20070</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20141" BrowseName="node">
+<UAObject NodeId="i=20131" BrowseName="node">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasComponent" IsForward="false">i=20070</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20149" BrowseName="node">
+<UAObject NodeId="i=20139" BrowseName="node">
 	<DisplayName>node</DisplayName>
 	<References>
 		<Reference ReferenceType="HasComponent" IsForward="false">i=20070</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20158" BrowseName="edge">
+<UAObject NodeId="i=20148" BrowseName="edge">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasComponent" IsForward="false">i=20070</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20165" BrowseName="edge">
+<UAObject NodeId="i=20155" BrowseName="edge">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasComponent" IsForward="false">i=20070</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20172" BrowseName="edge">
+<UAObject NodeId="i=20162" BrowseName="edge">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasComponent" IsForward="false">i=20070</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20179" BrowseName="edge">
+<UAObject NodeId="i=20169" BrowseName="edge">
 	<DisplayName>edge</DisplayName>
 	<References>
 		<Reference ReferenceType="HasComponent" IsForward="false">i=20070</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20186" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Strings">
+<UAObject NodeId="i=20176" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Strings">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Strings</DisplayName>
 	<References>
 		<Reference ReferenceType="HasComponent" IsForward="false">i=20075</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20188" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Device">
+<UAObject NodeId="i=20178" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Device">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Device</DisplayName>
 	<References>
 		<Reference ReferenceType="HasComponent" IsForward="false">i=20075</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20189" BrowseName="ConnectionParameter">
+<UAObject NodeId="i=20179" BrowseName="ConnectionParameter">
 	<DisplayName>ConnectionParameter</DisplayName>
 	<References>
 		<Reference ReferenceType="HasComponent" IsForward="false">i=20076</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20192" BrowseName="ConnectionHandler">
+<UAObject NodeId="i=20182" BrowseName="ConnectionHandler">
 	<DisplayName>ConnectionHandler</DisplayName>
 	<References>
 		<Reference ReferenceType="HasComponent" IsForward="false">i=20080</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20196" BrowseName="ConnectionHandler">
+<UAObject NodeId="i=20186" BrowseName="ConnectionHandler">
 	<DisplayName>ConnectionHandler</DisplayName>
 	<References>
 		<Reference ReferenceType="HasComponent" IsForward="false">i=20084</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20200" BrowseName="adress">
-	<DisplayName>adress</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20088</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20202" BrowseName="accesstyp">
-	<DisplayName>accesstyp</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20088</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20204" BrowseName="datatype">
-	<DisplayName>datatype</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20088</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20206" BrowseName="adress">
-	<DisplayName>adress</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20092</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20208" BrowseName="accesstyp">
-	<DisplayName>accesstyp</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20092</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20210" BrowseName="datatype">
-	<DisplayName>datatype</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20092</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20212" BrowseName="adress">
-	<DisplayName>adress</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20096</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20214" BrowseName="accesstyp">
-	<DisplayName>accesstyp</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20096</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20216" BrowseName="datatype">
-	<DisplayName>datatype</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20096</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20218" BrowseName="adress">
-	<DisplayName>adress</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20100</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20220" BrowseName="accesstyp">
-	<DisplayName>accesstyp</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20100</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20222" BrowseName="datatype">
-	<DisplayName>datatype</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20100</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20224" BrowseName="adress">
-	<DisplayName>adress</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20104</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20226" BrowseName="accesstyp">
-	<DisplayName>accesstyp</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20104</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20228" BrowseName="datatype">
-	<DisplayName>datatype</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20104</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20230" BrowseName="services">
+<UAObject NodeId="i=20190" BrowseName="services">
 	<DisplayName>services</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20108</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20103</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20232" BrowseName="adress">
-	<DisplayName>adress</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20112</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20234" BrowseName="accesstyp">
-	<DisplayName>accesstyp</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20112</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20236" BrowseName="datatype">
-	<DisplayName>datatype</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20112</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20238" BrowseName="adress">
-	<DisplayName>adress</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20116</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20240" BrowseName="accesstyp">
-	<DisplayName>accesstyp</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20116</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20242" BrowseName="datatype">
-	<DisplayName>datatype</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20116</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20244" BrowseName="adress">
-	<DisplayName>adress</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20120</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20246" BrowseName="accesstyp">
-	<DisplayName>accesstyp</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20120</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20248" BrowseName="datatype">
-	<DisplayName>datatype</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20120</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20250" BrowseName="adress">
-	<DisplayName>adress</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20124</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20252" BrowseName="accesstyp">
-	<DisplayName>accesstyp</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20124</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20254" BrowseName="datatype">
-	<DisplayName>datatype</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20124</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20256" BrowseName="adress">
-	<DisplayName>adress</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20128</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20258" BrowseName="accesstyp">
-	<DisplayName>accesstyp</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20128</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20260" BrowseName="datatype">
-	<DisplayName>datatype</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20128</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20262" BrowseName="data">
+<UAObject NodeId="i=20192" BrowseName="data">
 	<DisplayName>data</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20132</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20122</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20263" BrowseName="data">
+<UAObject NodeId="i=20193" BrowseName="data">
 	<DisplayName>data</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20141</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20131</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20264" BrowseName="data">
+<UAObject NodeId="i=20194" BrowseName="data">
 	<DisplayName>data</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20149</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20139</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20265" BrowseName="edgepath">
+<UAObject NodeId="i=20195" BrowseName="edgepath">
 	<DisplayName>edgepath</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20158</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20148</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20270" BrowseName="edgeio">
+<UAObject NodeId="i=20200" BrowseName="edgeio">
 	<DisplayName>edgeio</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20158</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20148</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20275" BrowseName="edgepath">
+<UAObject NodeId="i=20205" BrowseName="edgepath">
 	<DisplayName>edgepath</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20165</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20155</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20280" BrowseName="edgeio">
+<UAObject NodeId="i=20210" BrowseName="edgeio">
 	<DisplayName>edgeio</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20165</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20155</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20285" BrowseName="edgepath">
+<UAObject NodeId="i=20215" BrowseName="edgepath">
 	<DisplayName>edgepath</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20172</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20162</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20290" BrowseName="edgeio">
+<UAObject NodeId="i=20220" BrowseName="edgeio">
 	<DisplayName>edgeio</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20172</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20162</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20295" BrowseName="edgepath">
+<UAObject NodeId="i=20225" BrowseName="edgepath">
 	<DisplayName>edgepath</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20179</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20169</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20300" BrowseName="edgeio">
+<UAObject NodeId="i=20230" BrowseName="edgeio">
 	<DisplayName>edgeio</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20179</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20169</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20305" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Language">
+<UAObject NodeId="i=20235" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Language">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Language</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20186</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20176</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20307" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DeviceIdentification">
+<UAObject NodeId="i=20237" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DeviceIdentification">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DeviceIdentification</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20188</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20178</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20308" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DeviceInfo">
+<UAObject NodeId="i=20238" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DeviceInfo">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DeviceInfo</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20188</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20178</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20309" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DriverInfo">
+<UAObject NodeId="i=20239" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DriverInfo">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DriverInfo</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20188</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20178</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20310" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Connector">
+<UAObject NodeId="i=20240" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Connector">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Connector</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20188</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20178</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20317" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DeviceParameterSet">
+<UAObject NodeId="i=20247" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DeviceParameterSet">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DeviceParameterSet</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20188</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20178</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20318" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Functional">
+<UAObject NodeId="i=20248" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Functional">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Functional</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20188</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20178</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20319" BrowseName="service">
+<UAObject NodeId="i=20249" BrowseName="service">
 	<DisplayName>service</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20230</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20190</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20323" BrowseName="service">
+<UAObject NodeId="i=20253" BrowseName="service">
 	<DisplayName>service</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20230</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20190</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20327" BrowseName="variable">
+<UAObject NodeId="i=20257" BrowseName="variable">
 	<DisplayName>variable</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20262</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20192</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20331" BrowseName="variable">
+<UAObject NodeId="i=20261" BrowseName="variable">
 	<DisplayName>variable</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20263</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20193</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20335" BrowseName="variable">
+<UAObject NodeId="i=20265" BrowseName="variable">
 	<DisplayName>variable</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20264</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20194</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20339" BrowseName="variable">
+<UAObject NodeId="i=20269" BrowseName="variable">
 	<DisplayName>variable</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20264</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20194</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20343" BrowseName="variable">
+<UAObject NodeId="i=20273" BrowseName="variable">
 	<DisplayName>variable</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20264</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20194</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20347" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}String">
+<UAObject NodeId="i=20277" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}String">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}String</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20305</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20235</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20350" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}String">
+<UAObject NodeId="i=20280" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}String">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}String</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20305</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20235</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20353" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}String">
+<UAObject NodeId="i=20283" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}String">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}String</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20305</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20235</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20356" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Type">
+<UAObject NodeId="i=20286" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Type">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Type</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20307</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20237</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20358" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Id">
+<UAObject NodeId="i=20288" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Id">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Id</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20307</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20237</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20360" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Version">
+<UAObject NodeId="i=20290" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Version">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Version</DisplayName>
 	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20237</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20292" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Name">
+	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Name</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20238</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20295" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Description">
+	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Description</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20238</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20298" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Vendor">
+	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Vendor</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20238</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20301" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}OrderNumber">
+	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}OrderNumber</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20238</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20303" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Image">
+	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Image</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20238</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20305" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Icon">
+	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Icon</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20238</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20307" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}AdditionalFiles">
+	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}AdditionalFiles</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20238</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20308" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}RequiredLib">
+	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}RequiredLib</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20239</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20313" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}InterfaceName">
+	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}InterfaceName</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20240</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20316" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Fixed">
+	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Fixed</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20240</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20317" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DriverInfo">
+	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DriverInfo</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20240</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20319" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}HostParameterSet">
+	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}HostParameterSet</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20240</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20320" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}ChildObject">
+	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}ChildObject</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20248</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20321" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Attribute">
+	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Attribute</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20248</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20324" BrowseName="ServiceInterfaceInfos">
+	<DisplayName>ServiceInterfaceInfos</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20249</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20325" BrowseName="ServiceInterfaceInfos">
+	<DisplayName>ServiceInterfaceInfos</DisplayName>
+	<References>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20253</Reference>
+	</References>
+</UAObject>
+<UAObject NodeId="i=20326" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}File">
+	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}File</DisplayName>
+	<References>
 		<Reference ReferenceType="HasComponent" IsForward="false">i=20307</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20362" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Name">
-	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Name</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20308</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20365" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Description">
-	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Description</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20308</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20368" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Vendor">
-	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Vendor</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20308</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20371" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}OrderNumber">
-	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}OrderNumber</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20308</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20373" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Image">
-	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Image</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20308</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20375" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Icon">
-	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Icon</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20308</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20377" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}AdditionalFiles">
-	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}AdditionalFiles</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20308</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20378" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}RequiredLib">
-	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}RequiredLib</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20309</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20383" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}InterfaceName">
-	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}InterfaceName</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20310</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20386" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Fixed">
-	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Fixed</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20310</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20387" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DriverInfo">
-	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DriverInfo</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20310</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20389" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}HostParameterSet">
-	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}HostParameterSet</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20310</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20390" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}ChildObject">
-	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}ChildObject</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20318</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20391" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Attribute">
-	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Attribute</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20318</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20394" BrowseName="ServiceInterfaceInfos">
-	<DisplayName>ServiceInterfaceInfos</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20319</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20395" BrowseName="ServiceInterfaceInfos">
-	<DisplayName>ServiceInterfaceInfos</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20323</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20396" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}File">
-	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}File</DisplayName>
-	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20377</Reference>
-	</References>
-</UAObject>
-<UAObject NodeId="i=20399" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Module">
+<UAObject NodeId="i=20329" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Module">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}Module</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20386</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20316</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20400" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}ObjectGuid">
+<UAObject NodeId="i=20330" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}ObjectGuid">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}ObjectGuid</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20390</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20320</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20402" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}ObjectName">
+<UAObject NodeId="i=20332" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}ObjectName">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}ObjectName</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20390</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20320</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20404" BrowseName="ServiceInterfaceInfo">
+<UAObject NodeId="i=20334" BrowseName="ServiceInterfaceInfo">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20394</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20324</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20408" BrowseName="ServiceInterfaceInfo">
+<UAObject NodeId="i=20338" BrowseName="ServiceInterfaceInfo">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20394</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20324</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20412" BrowseName="ServiceInterfaceInfo">
+<UAObject NodeId="i=20342" BrowseName="ServiceInterfaceInfo">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20394</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20324</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20416" BrowseName="ServiceInterfaceInfo">
+<UAObject NodeId="i=20346" BrowseName="ServiceInterfaceInfo">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20394</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20324</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20420" BrowseName="ServiceInterfaceInfo">
+<UAObject NodeId="i=20350" BrowseName="ServiceInterfaceInfo">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20395</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20325</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20424" BrowseName="ServiceInterfaceInfo">
+<UAObject NodeId="i=20354" BrowseName="ServiceInterfaceInfo">
 	<DisplayName>ServiceInterfaceInfo</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20395</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20325</Reference>
 	</References>
 </UAObject>
-<UAObject NodeId="i=20428" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DeviceIdentification">
+<UAObject NodeId="i=20358" BrowseName="{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DeviceIdentification">
 	<DisplayName>{http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd}DeviceIdentification</DisplayName>
 	<References>
-		<Reference ReferenceType="HasComponent" IsForward="false">i=20399</Reference>
+		<Reference ReferenceType="HasComponent" IsForward="false">i=20329</Reference>
 	</References>
 </UAObject>
 <UAVariable NodeId="i=20002" BrowseName="Version" DataType="String">
@@ -935,19 +730,19 @@
 	</References>
 	<Value><String>1.0.0.0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20015" BrowseName="Version" DataType="String">
-	<DisplayName>Version</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20012</Reference>
-	</References>
-	<Value><String>1.0.0.0</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20016" BrowseName="FileName" DataType="String">
+<UAVariable NodeId="i=20015" BrowseName="FileName" DataType="String">
 	<DisplayName>FileName</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20012</Reference>
 	</References>
 	<Value><String>/DeviceDriver/Control/Control.xml</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20016" BrowseName="Version" DataType="String">
+	<DisplayName>Version</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20012</Reference>
+	</References>
+	<Value><String>1.0.0.0</String></Value>
 </UAVariable>
 <UAVariable NodeId="i=20017" BrowseName="Active" DataType="String">
 	<DisplayName>Active</DisplayName>
@@ -956,19 +751,19 @@
 	</References>
 	<Value><String>true</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20019" BrowseName="Version" DataType="String">
-	<DisplayName>Version</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20012</Reference>
-	</References>
-	<Value><String>1.0.0.0</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20020" BrowseName="FileName" DataType="String">
+<UAVariable NodeId="i=20019" BrowseName="FileName" DataType="String">
 	<DisplayName>FileName</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20012</Reference>
 	</References>
 	<Value><String>/DeviceDriver/HMI/hmi.xml</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20020" BrowseName="Version" DataType="String">
+	<DisplayName>Version</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20012</Reference>
+	</References>
+	<Value><String>1.0.0.0</String></Value>
 </UAVariable>
 <UAVariable NodeId="i=20021" BrowseName="Active" DataType="String">
 	<DisplayName>Active</DisplayName>
@@ -1047,26 +842,26 @@
 	</References>
 	<Value><String>SiemensPCS7</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20047" BrowseName="IsExplicit" DataType="String">
-	<DisplayName>IsExplicit</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20032</Reference>
-	</References>
-	<Value><String>true</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20048" BrowseName="InterfaceId" DataType="String">
+<UAVariable NodeId="i=20047" BrowseName="InterfaceId" DataType="String">
 	<DisplayName>InterfaceId</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20032</Reference>
 	</References>
 	<Value><String>2</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20049" BrowseName="FramePosition" DataType="String">
-	<DisplayName>FramePosition</DisplayName>
+<UAVariable NodeId="i=20048" BrowseName="FrameDirection" DataType="String">
+	<DisplayName>FrameDirection</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20032</Reference>
 	</References>
-	<Value><String>0.2</String></Value>
+	<Value><String>Bottom</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20049" BrowseName="IsExplicit" DataType="String">
+	<DisplayName>IsExplicit</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20032</Reference>
+	</References>
+	<Value><String>true</String></Value>
 </UAVariable>
 <UAVariable NodeId="i=20050" BrowseName="PhysicalInterfaceType" DataType="String">
 	<DisplayName>PhysicalInterfaceType</DisplayName>
@@ -1075,12 +870,12 @@
 	</References>
 	<Value><String>ETHERNET</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20051" BrowseName="FrameDirection" DataType="String">
-	<DisplayName>FrameDirection</DisplayName>
+<UAVariable NodeId="i=20051" BrowseName="FramePosition" DataType="String">
+	<DisplayName>FramePosition</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20032</Reference>
 	</References>
-	<Value><String>Bottom</String></Value>
+	<Value><String>0.2</String></Value>
 </UAVariable>
 <UAVariable NodeId="i=20053" BrowseName="FileName" DataType="String">
 	<DisplayName>FileName</DisplayName>
@@ -1159,22 +954,22 @@
 	</References>
 	<Value><String>localhost</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20071" BrowseName="h" DataType="String">
+<UAVariable NodeId="i=20071" BrowseName="id" DataType="String">
+	<DisplayName>id</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20039</Reference>
+	</References>
+	<Value><String>Visu_Temp</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20072" BrowseName="h" DataType="String">
 	<DisplayName>h</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20039</Reference>
 	</References>
 	<Value><String>1200</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20072" BrowseName="name" DataType="String">
+<UAVariable NodeId="i=20073" BrowseName="name" DataType="String">
 	<DisplayName>name</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20039</Reference>
-	</References>
-	<Value><String>Visu_Temp</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20073" BrowseName="id" DataType="String">
-	<DisplayName>id</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20039</Reference>
 	</References>
@@ -1187,1691 +982,1481 @@
 	</References>
 	<Value><String>1920</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20077" BrowseName="Id" DataType="String">
-	<DisplayName>Id</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20046</Reference>
-	</References>
-	<Value><String>2</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20078" BrowseName="ProtocolId" DataType="String">
+<UAVariable NodeId="i=20077" BrowseName="ProtocolId" DataType="String">
 	<DisplayName>ProtocolId</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20046</Reference>
 	</References>
 	<Value><String>CCEF4A79-DEB1-42E3-9BD8-6AB8DEE924AA</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20079" BrowseName="Type" DataType="String">
+<UAVariable NodeId="i=20078" BrowseName="Type" DataType="String">
 	<DisplayName>Type</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20046</Reference>
 	</References>
 	<Value><String>required</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20081" BrowseName="Id" DataType="String">
+<UAVariable NodeId="i=20079" BrowseName="Id" DataType="String">
 	<DisplayName>Id</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20046</Reference>
 	</References>
-	<Value><String>7</String></Value>
+	<Value><String>2</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20082" BrowseName="ProtocolId" DataType="String">
+<UAVariable NodeId="i=20081" BrowseName="ProtocolId" DataType="String">
 	<DisplayName>ProtocolId</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20046</Reference>
 	</References>
 	<Value><String>B617FCF1-08B0-468B-85BA-59F9E8091606</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20083" BrowseName="Type" DataType="String">
+<UAVariable NodeId="i=20082" BrowseName="Type" DataType="String">
 	<DisplayName>Type</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20046</Reference>
 	</References>
 	<Value><String>supported</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20085" BrowseName="Id" DataType="String">
+<UAVariable NodeId="i=20083" BrowseName="Id" DataType="String">
 	<DisplayName>Id</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20046</Reference>
 	</References>
-	<Value><String>8</String></Value>
+	<Value><String>7</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20086" BrowseName="ProtocolId" DataType="String">
+<UAVariable NodeId="i=20085" BrowseName="ProtocolId" DataType="String">
 	<DisplayName>ProtocolId</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20046</Reference>
 	</References>
 	<Value><String>B617FCF1-08B0-468B-85BA-59F9E8091606</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20087" BrowseName="Type" DataType="String">
+<UAVariable NodeId="i=20086" BrowseName="Type" DataType="String">
 	<DisplayName>Type</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20046</Reference>
 	</References>
 	<Value><String>required</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20089" BrowseName="description" DataType="String">
-	<DisplayName>description</DisplayName>
+<UAVariable NodeId="i=20087" BrowseName="Id" DataType="String">
+	<DisplayName>Id</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20046</Reference>
+	</References>
+	<Value><String>8</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20088" BrowseName="PLC_PRG.Panel_visu.L001Value" DataType="Double">
+	<DisplayName>PLC_PRG.Panel_visu.L001Value</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20063</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><Double></Double></Value>
+</UAVariable>
+<UAVariable NodeId="i=20089" BrowseName="address" DataType="String">
+	<DisplayName>address</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20088</Reference>
+	</References>
+	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.L001Value</String></Value>
 </UAVariable>
 <UAVariable NodeId="i=20090" BrowseName="pvid" DataType="String">
 	<DisplayName>pvid</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20063</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20088</Reference>
 	</References>
 	<Value><String>c5232ef6-6cd6-4387-b7e1-fec9f5a5020c</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20091" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
+<UAVariable NodeId="i=20091" BrowseName="PLC_PRG.Panel_visu.P001Running" DataType="Boolean">
+	<DisplayName>PLC_PRG.Panel_visu.P001Running</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20063</Reference>
 	</References>
-	<Value><String>PLC_PRG.Panel_visu.L001Value</String></Value>
+	<Value><Boolean></Boolean></Value>
 </UAVariable>
-<UAVariable NodeId="i=20093" BrowseName="description" DataType="String">
-	<DisplayName>description</DisplayName>
+<UAVariable NodeId="i=20092" BrowseName="address" DataType="String">
+	<DisplayName>address</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20063</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20091</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.P001Running</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20094" BrowseName="pvid" DataType="String">
+<UAVariable NodeId="i=20093" BrowseName="pvid" DataType="String">
 	<DisplayName>pvid</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20063</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20091</Reference>
 	</References>
 	<Value><String>5de8891b-4319-4d29-84c4-6281588267e1</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20095" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
+<UAVariable NodeId="i=20094" BrowseName="PLC_PRG.Panel_visu.X001Value" DataType="Boolean">
+	<DisplayName>PLC_PRG.Panel_visu.X001Value</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20063</Reference>
 	</References>
-	<Value><String>PLC_PRG.Panel_visu.P001Running</String></Value>
+	<Value><Boolean></Boolean></Value>
 </UAVariable>
-<UAVariable NodeId="i=20097" BrowseName="description" DataType="String">
-	<DisplayName>description</DisplayName>
+<UAVariable NodeId="i=20095" BrowseName="address" DataType="String">
+	<DisplayName>address</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20063</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20094</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Value</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20098" BrowseName="pvid" DataType="String">
+<UAVariable NodeId="i=20096" BrowseName="pvid" DataType="String">
 	<DisplayName>pvid</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20063</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20094</Reference>
 	</References>
 	<Value><String>77ab7d13-7b30-4dc6-b7eb-85c7614245b8</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20099" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
+<UAVariable NodeId="i=20097" BrowseName="PLC_PRG.Panel_visu.X001Open" DataType="Boolean">
+	<DisplayName>PLC_PRG.Panel_visu.X001Open</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20063</Reference>
 	</References>
-	<Value><String>PLC_PRG.Panel_visu.X001Value</String></Value>
+	<Value><Boolean></Boolean></Value>
 </UAVariable>
-<UAVariable NodeId="i=20101" BrowseName="description" DataType="String">
-	<DisplayName>description</DisplayName>
+<UAVariable NodeId="i=20098" BrowseName="address" DataType="String">
+	<DisplayName>address</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20097</Reference>
+	</References>
+	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Open</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20099" BrowseName="pvid" DataType="String">
+	<DisplayName>pvid</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20097</Reference>
+	</References>
+	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20100" BrowseName="PLC_PRG.Panel_visu.X001Closed" DataType="Boolean">
+	<DisplayName>PLC_PRG.Panel_visu.X001Closed</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20063</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><Boolean></Boolean></Value>
+</UAVariable>
+<UAVariable NodeId="i=20101" BrowseName="address" DataType="String">
+	<DisplayName>address</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20100</Reference>
+	</References>
+	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Closed</String></Value>
 </UAVariable>
 <UAVariable NodeId="i=20102" BrowseName="pvid" DataType="String">
 	<DisplayName>pvid</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20063</Reference>
-	</References>
-	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20103" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20063</Reference>
-	</References>
-	<Value><String>PLC_PRG.Panel_visu.X001Open</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20105" BrowseName="description" DataType="String">
-	<DisplayName>description</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20063</Reference>
-	</References>
-	<Value><String></String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20106" BrowseName="pvid" DataType="String">
-	<DisplayName>pvid</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20063</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20100</Reference>
 	</References>
 	<Value><String>8c79380a-f18b-4f47-b7bd-263da5968b4a</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20107" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
+<UAVariable NodeId="i=20104" BrowseName="id" DataType="String">
+	<DisplayName>id</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20063</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20066</Reference>
 	</References>
-	<Value><String>PLC_PRG.Panel_visu.X001Closed</String></Value>
+	<Value><String></String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20109" BrowseName="name" DataType="String">
+<UAVariable NodeId="i=20105" BrowseName="ref" DataType="String">
+	<DisplayName>ref</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20066</Reference>
+	</References>
+	<Value><String></String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20106" BrowseName="name" DataType="String">
 	<DisplayName>name</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20066</Reference>
 	</References>
 	<Value><String>Plant_Module_1</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20110" BrowseName="id" DataType="String">
-	<DisplayName>id</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20066</Reference>
-	</References>
-	<Value><String></String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20111" BrowseName="ref" DataType="String">
-	<DisplayName>ref</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20066</Reference>
-	</References>
-	<Value><String></String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20113" BrowseName="description" DataType="String">
-	<DisplayName>description</DisplayName>
+<UAVariable NodeId="i=20107" BrowseName="PLC_PRG.Panel_visu.L001Value" DataType="Double">
+	<DisplayName>PLC_PRG.Panel_visu.L001Value</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20067</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><Double></Double></Value>
 </UAVariable>
-<UAVariable NodeId="i=20114" BrowseName="pvid" DataType="String">
+<UAVariable NodeId="i=20108" BrowseName="address" DataType="String">
+	<DisplayName>address</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20107</Reference>
+	</References>
+	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.L001Value</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20109" BrowseName="pvid" DataType="String">
 	<DisplayName>pvid</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20067</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20107</Reference>
 	</References>
 	<Value><String>c5232ef6-6cd6-4387-b7e1-fec9f5a5020c</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20115" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
+<UAVariable NodeId="i=20110" BrowseName="PLC_PRG.Panel_visu.P001Running" DataType="Boolean">
+	<DisplayName>PLC_PRG.Panel_visu.P001Running</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20067</Reference>
 	</References>
-	<Value><String>PLC_PRG.Panel_visu.L001Value</String></Value>
+	<Value><Boolean></Boolean></Value>
 </UAVariable>
-<UAVariable NodeId="i=20117" BrowseName="description" DataType="String">
-	<DisplayName>description</DisplayName>
+<UAVariable NodeId="i=20111" BrowseName="address" DataType="String">
+	<DisplayName>address</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20110</Reference>
+	</References>
+	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.P001Running</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20112" BrowseName="pvid" DataType="String">
+	<DisplayName>pvid</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20110</Reference>
+	</References>
+	<Value><String>5de8891b-4319-4d29-84c4-6281588267e1</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20113" BrowseName="PLC_PRG.Panel_visu.X001Value" DataType="Boolean">
+	<DisplayName>PLC_PRG.Panel_visu.X001Value</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20067</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><Boolean></Boolean></Value>
+</UAVariable>
+<UAVariable NodeId="i=20114" BrowseName="address" DataType="String">
+	<DisplayName>address</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20113</Reference>
+	</References>
+	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Value</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20115" BrowseName="pvid" DataType="String">
+	<DisplayName>pvid</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20113</Reference>
+	</References>
+	<Value><String>77ab7d13-7b30-4dc6-b7eb-85c7614245b8</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20116" BrowseName="PLC_PRG.Panel_visu.X001Open" DataType="Boolean">
+	<DisplayName>PLC_PRG.Panel_visu.X001Open</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20067</Reference>
+	</References>
+	<Value><Boolean></Boolean></Value>
+</UAVariable>
+<UAVariable NodeId="i=20117" BrowseName="address" DataType="String">
+	<DisplayName>address</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20116</Reference>
+	</References>
+	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Open</String></Value>
 </UAVariable>
 <UAVariable NodeId="i=20118" BrowseName="pvid" DataType="String">
 	<DisplayName>pvid</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20067</Reference>
-	</References>
-	<Value><String>5de8891b-4319-4d29-84c4-6281588267e1</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20119" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20067</Reference>
-	</References>
-	<Value><String>PLC_PRG.Panel_visu.P001Running</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20121" BrowseName="description" DataType="String">
-	<DisplayName>description</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20067</Reference>
-	</References>
-	<Value><String></String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20122" BrowseName="pvid" DataType="String">
-	<DisplayName>pvid</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20067</Reference>
-	</References>
-	<Value><String>77ab7d13-7b30-4dc6-b7eb-85c7614245b8</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20123" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20067</Reference>
-	</References>
-	<Value><String>PLC_PRG.Panel_visu.X001Value</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20125" BrowseName="description" DataType="String">
-	<DisplayName>description</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20067</Reference>
-	</References>
-	<Value><String></String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20126" BrowseName="pvid" DataType="String">
-	<DisplayName>pvid</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20067</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20116</Reference>
 	</References>
 	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20127" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
+<UAVariable NodeId="i=20119" BrowseName="PLC_PRG.Panel_visu.X001Closed" DataType="Boolean">
+	<DisplayName>PLC_PRG.Panel_visu.X001Closed</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20067</Reference>
 	</References>
-	<Value><String>PLC_PRG.Panel_visu.X001Open</String></Value>
+	<Value><Boolean></Boolean></Value>
 </UAVariable>
-<UAVariable NodeId="i=20129" BrowseName="description" DataType="String">
-	<DisplayName>description</DisplayName>
+<UAVariable NodeId="i=20120" BrowseName="address" DataType="String">
+	<DisplayName>address</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20067</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20119</Reference>
 	</References>
-	<Value><String></String></Value>
+	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Closed</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20130" BrowseName="pvid" DataType="String">
+<UAVariable NodeId="i=20121" BrowseName="pvid" DataType="String">
 	<DisplayName>pvid</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20067</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20119</Reference>
 	</References>
 	<Value><String>8c79380a-f18b-4f47-b7bd-263da5968b4a</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20131" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20067</Reference>
-	</References>
-	<Value><String>PLC_PRG.Panel_visu.X001Closed</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20133" BrowseName="x" DataType="String">
+<UAVariable NodeId="i=20123" BrowseName="x" DataType="String">
 	<DisplayName>x</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
 	<Value><String>446</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20134" BrowseName="id" DataType="String">
-	<DisplayName>id</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>2a175c26-8071-4c66-86cf-a26c875dae44</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20135" BrowseName="y" DataType="String">
-	<DisplayName>y</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>594</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20136" BrowseName="w" DataType="String">
-	<DisplayName>w</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>371</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20137" BrowseName="h" DataType="String">
-	<DisplayName>h</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>469</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20138" BrowseName="tagname" DataType="String">
-	<DisplayName>tagname</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>L001</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20139" BrowseName="ref" DataType="String">
-	<DisplayName>ref</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String></String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20140" BrowseName="role" DataType="String">
+<UAVariable NodeId="i=20124" BrowseName="role" DataType="String">
 	<DisplayName>role</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
 	<Value><String>NA_TankLevel01</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20142" BrowseName="x" DataType="String">
+<UAVariable NodeId="i=20125" BrowseName="id" DataType="String">
+	<DisplayName>id</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>2a175c26-8071-4c66-86cf-a26c875dae44</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20126" BrowseName="tagname" DataType="String">
+	<DisplayName>tagname</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>L001</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20127" BrowseName="w" DataType="String">
+	<DisplayName>w</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>371</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20128" BrowseName="y" DataType="String">
+	<DisplayName>y</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>594</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20129" BrowseName="ref" DataType="String">
+	<DisplayName>ref</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String></String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20130" BrowseName="h" DataType="String">
+	<DisplayName>h</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>469</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20132" BrowseName="x" DataType="String">
 	<DisplayName>x</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
 	<Value><String>937</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20143" BrowseName="id" DataType="String">
-	<DisplayName>id</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>7369b780-9b9b-4cfb-9b29-5a95e56e1473</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20144" BrowseName="y" DataType="String">
-	<DisplayName>y</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>1025</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20145" BrowseName="w" DataType="String">
-	<DisplayName>w</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>95</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20146" BrowseName="h" DataType="String">
-	<DisplayName>h</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>145</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20147" BrowseName="tagname" DataType="String">
-	<DisplayName>tagname</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>P001</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20148" BrowseName="role" DataType="String">
+<UAVariable NodeId="i=20133" BrowseName="role" DataType="String">
 	<DisplayName>role</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
 	<Value><String>NA_Pump01</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20150" BrowseName="x" DataType="String">
+<UAVariable NodeId="i=20134" BrowseName="id" DataType="String">
+	<DisplayName>id</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>7369b780-9b9b-4cfb-9b29-5a95e56e1473</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20135" BrowseName="tagname" DataType="String">
+	<DisplayName>tagname</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>P001</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20136" BrowseName="w" DataType="String">
+	<DisplayName>w</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>95</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20137" BrowseName="y" DataType="String">
+	<DisplayName>y</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>1025</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20138" BrowseName="h" DataType="String">
+	<DisplayName>h</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>145</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20140" BrowseName="x" DataType="String">
 	<DisplayName>x</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
 	<Value><String>914</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20151" BrowseName="id" DataType="String">
-	<DisplayName>id</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>dd174dd1-c603-4260-a77d-fe80e8e34977</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20152" BrowseName="y" DataType="String">
-	<DisplayName>y</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>354</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20153" BrowseName="w" DataType="String">
-	<DisplayName>w</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>106</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20154" BrowseName="h" DataType="String">
-	<DisplayName>h</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>153</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20155" BrowseName="tagname" DataType="String">
-	<DisplayName>tagname</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>X001</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20156" BrowseName="ref" DataType="String">
-	<DisplayName>ref</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>http://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=551-14-03</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20157" BrowseName="role" DataType="String">
+<UAVariable NodeId="i=20141" BrowseName="role" DataType="String">
 	<DisplayName>role</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
 	<Value><String>NA_Valve01</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20159" BrowseName="overlap" DataType="String">
-	<DisplayName>overlap</DisplayName>
+<UAVariable NodeId="i=20142" BrowseName="id" DataType="String">
+	<DisplayName>id</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
-	<Value><String>0</String></Value>
+	<Value><String>dd174dd1-c603-4260-a77d-fe80e8e34977</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20160" BrowseName="source" DataType="String">
-	<DisplayName>source</DisplayName>
+<UAVariable NodeId="i=20143" BrowseName="tagname" DataType="String">
+	<DisplayName>tagname</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
-	<Value><String>2a175c26-8071-4c66-86cf-a26c875dae44</String></Value>
+	<Value><String>X001</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20161" BrowseName="target" DataType="String">
+<UAVariable NodeId="i=20144" BrowseName="w" DataType="String">
+	<DisplayName>w</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>106</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20145" BrowseName="y" DataType="String">
+	<DisplayName>y</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>354</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20146" BrowseName="ref" DataType="String">
+	<DisplayName>ref</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>http://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=551-14-03</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20147" BrowseName="h" DataType="String">
+	<DisplayName>h</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>153</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20149" BrowseName="role" DataType="String">
+	<DisplayName>role</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>NA_Pipe01</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20150" BrowseName="id" DataType="String">
+	<DisplayName>id</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>fd6f47d1-7491-4aa6-9446-8142633c0c22</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20151" BrowseName="target" DataType="String">
 	<DisplayName>target</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
 	<Value><String>cde7ce82-e99e-4324-b3bf-46b578f1ec52</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20162" BrowseName="name" DataType="String">
+<UAVariable NodeId="i=20152" BrowseName="name" DataType="String">
 	<DisplayName>name</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
 	<Value><String>Pipe_01</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20163" BrowseName="id" DataType="String">
-	<DisplayName>id</DisplayName>
+<UAVariable NodeId="i=20153" BrowseName="source" DataType="String">
+	<DisplayName>source</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
-	<Value><String>fd6f47d1-7491-4aa6-9446-8142633c0c22</String></Value>
+	<Value><String>2a175c26-8071-4c66-86cf-a26c875dae44</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20164" BrowseName="role" DataType="String">
-	<DisplayName>role</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>NA_Pipe01</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20166" BrowseName="overlap" DataType="String">
+<UAVariable NodeId="i=20154" BrowseName="overlap" DataType="String">
 	<DisplayName>overlap</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
 	<Value><String>0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20167" BrowseName="source" DataType="String">
-	<DisplayName>source</DisplayName>
+<UAVariable NodeId="i=20156" BrowseName="role" DataType="String">
+	<DisplayName>role</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
-	<Value><String>fd6f47d1-7491-4aa6-9446-8142633c0c22</String></Value>
+	<Value><String>NA_Pipe01</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20168" BrowseName="target" DataType="String">
-	<DisplayName>target</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>7369b780-9b9b-4cfb-9b29-5a95e56e1473</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20169" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>Pipe_02</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20170" BrowseName="id" DataType="String">
+<UAVariable NodeId="i=20157" BrowseName="id" DataType="String">
 	<DisplayName>id</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
 	<Value><String>cde7ce82-e99e-4324-b3bf-46b578f1ec52</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20171" BrowseName="role" DataType="String">
-	<DisplayName>role</DisplayName>
+<UAVariable NodeId="i=20158" BrowseName="target" DataType="String">
+	<DisplayName>target</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
-	<Value><String>NA_Pipe01</String></Value>
+	<Value><String>7369b780-9b9b-4cfb-9b29-5a95e56e1473</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20173" BrowseName="overlap" DataType="String">
+<UAVariable NodeId="i=20159" BrowseName="name" DataType="String">
+	<DisplayName>name</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>Pipe_02</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20160" BrowseName="source" DataType="String">
+	<DisplayName>source</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>fd6f47d1-7491-4aa6-9446-8142633c0c22</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20161" BrowseName="overlap" DataType="String">
 	<DisplayName>overlap</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
 	<Value><String>0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20174" BrowseName="source" DataType="String">
-	<DisplayName>source</DisplayName>
+<UAVariable NodeId="i=20163" BrowseName="role" DataType="String">
+	<DisplayName>role</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
-	<Value><String>7369b780-9b9b-4cfb-9b29-5a95e56e1473</String></Value>
+	<Value><String>NA_Pipe01</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20175" BrowseName="target" DataType="String">
-	<DisplayName>target</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>dd174dd1-c603-4260-a77d-fe80e8e34977</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20176" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>Pipe_03</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20177" BrowseName="id" DataType="String">
+<UAVariable NodeId="i=20164" BrowseName="id" DataType="String">
 	<DisplayName>id</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
 	<Value><String>2ec85233-29b7-49c1-8e02-49817e791f27</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20178" BrowseName="role" DataType="String">
-	<DisplayName>role</DisplayName>
+<UAVariable NodeId="i=20165" BrowseName="target" DataType="String">
+	<DisplayName>target</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
-	<Value><String>NA_Pipe01</String></Value>
+	<Value><String>dd174dd1-c603-4260-a77d-fe80e8e34977</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20180" BrowseName="overlap" DataType="String">
+<UAVariable NodeId="i=20166" BrowseName="name" DataType="String">
+	<DisplayName>name</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>Pipe_03</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20167" BrowseName="source" DataType="String">
+	<DisplayName>source</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>7369b780-9b9b-4cfb-9b29-5a95e56e1473</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20168" BrowseName="overlap" DataType="String">
 	<DisplayName>overlap</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
 	<Value><String>0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20181" BrowseName="source" DataType="String">
-	<DisplayName>source</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>dd174dd1-c603-4260-a77d-fe80e8e34977</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20182" BrowseName="target" DataType="String">
-	<DisplayName>target</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String></String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20183" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>NA_Pipe01_09</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20184" BrowseName="id" DataType="String">
-	<DisplayName>id</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
-	</References>
-	<Value><String>c57dbdb6-9f2d-4b6f-a8b2-6494d31c8759</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20185" BrowseName="role" DataType="String">
+<UAVariable NodeId="i=20170" BrowseName="role" DataType="String">
 	<DisplayName>role</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
 	</References>
 	<Value><String>NA_Pipe01</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20187" BrowseName="namespace" DataType="String">
+<UAVariable NodeId="i=20171" BrowseName="id" DataType="String">
+	<DisplayName>id</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>c57dbdb6-9f2d-4b6f-a8b2-6494d31c8759</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20172" BrowseName="target" DataType="String">
+	<DisplayName>target</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String></String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20173" BrowseName="name" DataType="String">
+	<DisplayName>name</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>NA_Pipe01_09</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20174" BrowseName="source" DataType="String">
+	<DisplayName>source</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>dd174dd1-c603-4260-a77d-fe80e8e34977</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20175" BrowseName="overlap" DataType="String">
+	<DisplayName>overlap</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20070</Reference>
+	</References>
+	<Value><String>0</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20177" BrowseName="namespace" DataType="String">
 	<DisplayName>namespace</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20075</Reference>
 	</References>
 	<Value><String>local</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20190" BrowseName="IP" DataType="String">
-	<DisplayName>IP</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20076</Reference>
-	</References>
-	<Value><String>139.11.207.102</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20191" BrowseName="Mask" DataType="String">
+<UAVariable NodeId="i=20180" BrowseName="Mask" DataType="String">
 	<DisplayName>Mask</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20076</Reference>
 	</References>
 	<Value><String>255.255.255.0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20193" BrowseName="Version" DataType="String">
+<UAVariable NodeId="i=20181" BrowseName="IP" DataType="String">
+	<DisplayName>IP</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20076</Reference>
+	</References>
+	<Value><String>139.11.207.102</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20183" BrowseName="Version" DataType="String">
 	<DisplayName>Version</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20080</Reference>
 	</References>
 	<Value><String>1.0.0.0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20194" BrowseName="Assembly" DataType="String">
-	<DisplayName>Assembly</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20080</Reference>
-	</References>
-	<Value><String>/ConnectionHandler/ConnectionHandler/ModbusOPCConnectionHandler.dll</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20195" BrowseName="Type" DataType="String">
+<UAVariable NodeId="i=20184" BrowseName="Type" DataType="String">
 	<DisplayName>Type</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20080</Reference>
 	</References>
 	<Value><String>ConnectionHandler.ConnectionHandler</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20197" BrowseName="Version" DataType="String">
+<UAVariable NodeId="i=20185" BrowseName="Assembly" DataType="String">
+	<DisplayName>Assembly</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20080</Reference>
+	</References>
+	<Value><String>/ConnectionHandler/ConnectionHandler/ModbusOPCConnectionHandler.dll</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20187" BrowseName="Version" DataType="String">
 	<DisplayName>Version</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20084</Reference>
 	</References>
 	<Value><String>1.0.0.0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20198" BrowseName="Assembly" DataType="String">
-	<DisplayName>Assembly</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20084</Reference>
-	</References>
-	<Value><String>/ConnectionHandler/ConnectionHandler/ModbusOPCConnectionHandler.dll</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20199" BrowseName="Type" DataType="String">
+<UAVariable NodeId="i=20188" BrowseName="Type" DataType="String">
 	<DisplayName>Type</DisplayName>
 	<References>
 		<Reference ReferenceType="HasProperty" IsForward="false">i=20084</Reference>
 	</References>
 	<Value><String>ConnectionHandler.ConnectionHandler</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20201" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
+<UAVariable NodeId="i=20189" BrowseName="Assembly" DataType="String">
+	<DisplayName>Assembly</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20088</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20084</Reference>
 	</References>
-	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.L001Value</String></Value>
+	<Value><String>/ConnectionHandler/ConnectionHandler/ModbusOPCConnectionHandler.dll</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20203" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20088</Reference>
-	</References>
-	<Value><String>READWRITE</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20205" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20088</Reference>
-	</References>
-	<Value><String>REAL</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20207" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20092</Reference>
-	</References>
-	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.P001Running</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20209" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20092</Reference>
-	</References>
-	<Value><String>READWRITE</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20211" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20092</Reference>
-	</References>
-	<Value><String>BOOL</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20213" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20096</Reference>
-	</References>
-	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Value</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20215" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20096</Reference>
-	</References>
-	<Value><String>READWRITE</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20217" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20096</Reference>
-	</References>
-	<Value><String>BOOL</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20219" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20100</Reference>
-	</References>
-	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Open</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20221" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20100</Reference>
-	</References>
-	<Value><String>READWRITE</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20223" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20100</Reference>
-	</References>
-	<Value><String>BOOL</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20225" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20104</Reference>
-	</References>
-	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Closed</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20227" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20104</Reference>
-	</References>
-	<Value><String>READWRITE</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20229" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20104</Reference>
-	</References>
-	<Value><String>BOOL</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20231" BrowseName="count" DataType="String">
+<UAVariable NodeId="i=20191" BrowseName="count" DataType="String">
 	<DisplayName>count</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20108</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20103</Reference>
 	</References>
 	<Value><String>2</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20233" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20112</Reference>
-	</References>
-	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.L001Value</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20235" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20112</Reference>
-	</References>
-	<Value><String>READWRITE</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20237" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20112</Reference>
-	</References>
-	<Value><String>REAL</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20239" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20116</Reference>
-	</References>
-	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.P001Running</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20241" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20116</Reference>
-	</References>
-	<Value><String>READWRITE</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20243" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20116</Reference>
-	</References>
-	<Value><String>BOOL</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20245" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20120</Reference>
-	</References>
-	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Value</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20247" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20120</Reference>
-	</References>
-	<Value><String>READWRITE</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20249" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20120</Reference>
-	</References>
-	<Value><String>BOOL</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20251" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20124</Reference>
-	</References>
-	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Open</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20253" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20124</Reference>
-	</References>
-	<Value><String>READWRITE</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20255" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20124</Reference>
-	</References>
-	<Value><String>BOOL</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20257" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20128</Reference>
-	</References>
-	<Value><String>_750_8204_PFC200_2ETH_RS_CAN.Application.PLC_PRG.Panel_visu.X001Closed</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20259" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20128</Reference>
-	</References>
-	<Value><String>READWRITE</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20261" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20128</Reference>
-	</References>
-	<Value><String>BOOL</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20266" BrowseName="tx" DataType="String">
+<UAVariable NodeId="i=20196" BrowseName="tx" DataType="String">
 	<DisplayName>tx</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20158</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20148</Reference>
 	</References>
 	<Value><String>0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20267" BrowseName="ty" DataType="String">
-	<DisplayName>ty</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20158</Reference>
-	</References>
-	<Value><String>0</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20268" BrowseName="sx" DataType="String">
-	<DisplayName>sx</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20158</Reference>
-	</References>
-	<Value><String>0</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20269" BrowseName="sy" DataType="String">
+<UAVariable NodeId="i=20197" BrowseName="sy" DataType="String">
 	<DisplayName>sy</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20158</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20148</Reference>
 	</References>
 	<Value><String>0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20271" BrowseName="x1" DataType="String">
-	<DisplayName>x1</DisplayName>
+<UAVariable NodeId="i=20198" BrowseName="ty" DataType="String">
+	<DisplayName>ty</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20158</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20148</Reference>
 	</References>
-	<Value><String>568</String></Value>
+	<Value><String>0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20272" BrowseName="y1" DataType="String">
+<UAVariable NodeId="i=20199" BrowseName="sx" DataType="String">
+	<DisplayName>sx</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20148</Reference>
+	</References>
+	<Value><String>0</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20201" BrowseName="y1" DataType="String">
 	<DisplayName>y1</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20158</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20148</Reference>
 	</References>
 	<Value><String>1100</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20273" BrowseName="y2" DataType="String">
+<UAVariable NodeId="i=20202" BrowseName="x1" DataType="String">
+	<DisplayName>x1</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20148</Reference>
+	</References>
+	<Value><String>568</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20203" BrowseName="x2" DataType="String">
+	<DisplayName>x2</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20148</Reference>
+	</References>
+	<Value><String>568</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20204" BrowseName="y2" DataType="String">
 	<DisplayName>y2</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20158</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20148</Reference>
 	</References>
 	<Value><String>1063</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20274" BrowseName="x2" DataType="String">
-	<DisplayName>x2</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20158</Reference>
-	</References>
-	<Value><String>568</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20276" BrowseName="tx" DataType="String">
+<UAVariable NodeId="i=20206" BrowseName="tx" DataType="String">
 	<DisplayName>tx</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20165</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20155</Reference>
 	</References>
 	<Value><String>0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20277" BrowseName="ty" DataType="String">
-	<DisplayName>ty</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20165</Reference>
-	</References>
-	<Value><String>0</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20278" BrowseName="sx" DataType="String">
-	<DisplayName>sx</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20165</Reference>
-	</References>
-	<Value><String>0</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20279" BrowseName="sy" DataType="String">
+<UAVariable NodeId="i=20207" BrowseName="sy" DataType="String">
 	<DisplayName>sy</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20165</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20155</Reference>
 	</References>
 	<Value><String>0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20281" BrowseName="x1" DataType="String">
+<UAVariable NodeId="i=20208" BrowseName="ty" DataType="String">
+	<DisplayName>ty</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20155</Reference>
+	</References>
+	<Value><String>0</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20209" BrowseName="sx" DataType="String">
+	<DisplayName>sx</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20155</Reference>
+	</References>
+	<Value><String>0</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20211" BrowseName="y1" DataType="String">
+	<DisplayName>y1</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20155</Reference>
+	</References>
+	<Value><String>1100</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20212" BrowseName="x1" DataType="String">
 	<DisplayName>x1</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20165</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20155</Reference>
 	</References>
 	<Value><String>565</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20282" BrowseName="y1" DataType="String">
-	<DisplayName>y1</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20165</Reference>
-	</References>
-	<Value><String>1100</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20283" BrowseName="y2" DataType="String">
-	<DisplayName>y2</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20165</Reference>
-	</References>
-	<Value><String>1100</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20284" BrowseName="x2" DataType="String">
+<UAVariable NodeId="i=20213" BrowseName="x2" DataType="String">
 	<DisplayName>x2</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20165</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20155</Reference>
 	</References>
 	<Value><String>1278</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20286" BrowseName="tx" DataType="String">
+<UAVariable NodeId="i=20214" BrowseName="y2" DataType="String">
+	<DisplayName>y2</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20155</Reference>
+	</References>
+	<Value><String>1100</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20216" BrowseName="tx" DataType="String">
 	<DisplayName>tx</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20172</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20162</Reference>
 	</References>
 	<Value><String>0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20287" BrowseName="ty" DataType="String">
-	<DisplayName>ty</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20172</Reference>
-	</References>
-	<Value><String>0</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20288" BrowseName="sx" DataType="String">
-	<DisplayName>sx</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20172</Reference>
-	</References>
-	<Value><String>0</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20289" BrowseName="sy" DataType="String">
+<UAVariable NodeId="i=20217" BrowseName="sy" DataType="String">
 	<DisplayName>sy</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20172</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20162</Reference>
 	</References>
 	<Value><String>0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20291" BrowseName="x1" DataType="String">
-	<DisplayName>x1</DisplayName>
+<UAVariable NodeId="i=20218" BrowseName="ty" DataType="String">
+	<DisplayName>ty</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20172</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20162</Reference>
 	</References>
-	<Value><String>524</String></Value>
+	<Value><String>0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20292" BrowseName="y1" DataType="String">
+<UAVariable NodeId="i=20219" BrowseName="sx" DataType="String">
+	<DisplayName>sx</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20162</Reference>
+	</References>
+	<Value><String>0</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20221" BrowseName="y1" DataType="String">
 	<DisplayName>y1</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20172</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20162</Reference>
 	</References>
 	<Value><String>600</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20293" BrowseName="y2" DataType="String">
-	<DisplayName>y2</DisplayName>
+<UAVariable NodeId="i=20222" BrowseName="x1" DataType="String">
+	<DisplayName>x1</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20172</Reference>
-	</References>
-	<Value><String>299</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20294" BrowseName="x2" DataType="String">
-	<DisplayName>x2</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20172</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20162</Reference>
 	</References>
 	<Value><String>524</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20296" BrowseName="tx" DataType="String">
+<UAVariable NodeId="i=20223" BrowseName="x2" DataType="String">
+	<DisplayName>x2</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20162</Reference>
+	</References>
+	<Value><String>524</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20224" BrowseName="y2" DataType="String">
+	<DisplayName>y2</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20162</Reference>
+	</References>
+	<Value><String>299</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20226" BrowseName="tx" DataType="String">
 	<DisplayName>tx</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20179</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20169</Reference>
 	</References>
 	<Value><String>0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20297" BrowseName="ty" DataType="String">
-	<DisplayName>ty</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20179</Reference>
-	</References>
-	<Value><String>0</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20298" BrowseName="sx" DataType="String">
-	<DisplayName>sx</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20179</Reference>
-	</References>
-	<Value><String>0</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20299" BrowseName="sy" DataType="String">
+<UAVariable NodeId="i=20227" BrowseName="sy" DataType="String">
 	<DisplayName>sy</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20179</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20169</Reference>
 	</References>
 	<Value><String>0</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20301" BrowseName="x1" DataType="String">
+<UAVariable NodeId="i=20228" BrowseName="ty" DataType="String">
+	<DisplayName>ty</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20169</Reference>
+	</References>
+	<Value><String>0</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20229" BrowseName="sx" DataType="String">
+	<DisplayName>sx</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20169</Reference>
+	</References>
+	<Value><String>0</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20231" BrowseName="y1" DataType="String">
+	<DisplayName>y1</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20169</Reference>
+	</References>
+	<Value><String>652</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20232" BrowseName="x1" DataType="String">
 	<DisplayName>x1</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20179</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20169</Reference>
 	</References>
 	<Value><String>817</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20302" BrowseName="y1" DataType="String">
-	<DisplayName>y1</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20179</Reference>
-	</References>
-	<Value><String>652</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20303" BrowseName="y2" DataType="String">
-	<DisplayName>y2</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20179</Reference>
-	</References>
-	<Value><String>652</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20304" BrowseName="x2" DataType="String">
+<UAVariable NodeId="i=20233" BrowseName="x2" DataType="String">
 	<DisplayName>x2</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20179</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20169</Reference>
 	</References>
 	<Value><String>1278</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20306" BrowseName="lang" DataType="String">
+<UAVariable NodeId="i=20234" BrowseName="y2" DataType="String">
+	<DisplayName>y2</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20169</Reference>
+	</References>
+	<Value><String>652</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20236" BrowseName="lang" DataType="String">
 	<DisplayName>lang</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20186</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20176</Reference>
 	</References>
 	<Value><String>en</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20311" BrowseName="hostpath" DataType="String">
-	<DisplayName>hostpath</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20188</Reference>
-	</References>
-	<Value><String>-1</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20312" BrowseName="interface" DataType="String">
-	<DisplayName>interface</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20188</Reference>
-	</References>
-	<Value><String>Wago.MODBUS</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20313" BrowseName="explicit" DataType="String">
-	<DisplayName>explicit</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20188</Reference>
-	</References>
-	<Value><String>true</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20314" BrowseName="moduleType" DataType="String">
-	<DisplayName>moduleType</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20188</Reference>
-	</References>
-	<Value><String>4096</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20315" BrowseName="connectorId" DataType="String">
-	<DisplayName>connectorId</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20188</Reference>
-	</References>
-	<Value><String>2</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20316" BrowseName="role" DataType="String">
+<UAVariable NodeId="i=20241" BrowseName="role" DataType="String">
 	<DisplayName>role</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20188</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20178</Reference>
 	</References>
 	<Value><String>parent</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20320" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
+<UAVariable NodeId="i=20242" BrowseName="explicit" DataType="String">
+	<DisplayName>explicit</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20230</Reference>
-	</References>
-	<Value><String>Cleaning</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20321" BrowseName="id" DataType="String">
-	<DisplayName>id</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20230</Reference>
-	</References>
-	<Value><String></String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20322" BrowseName="ref" DataType="String">
-	<DisplayName>ref</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20230</Reference>
-	</References>
-	<Value><String></String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20324" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20230</Reference>
-	</References>
-	<Value><String>Tempering</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20325" BrowseName="id" DataType="String">
-	<DisplayName>id</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20230</Reference>
-	</References>
-	<Value><String></String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20326" BrowseName="ref" DataType="String">
-	<DisplayName>ref</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20230</Reference>
-	</References>
-	<Value><String></String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20328" BrowseName="pvid" DataType="String">
-	<DisplayName>pvid</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20262</Reference>
-	</References>
-	<Value><String>c5232ef6-6cd6-4387-b7e1-fec9f5a5020c</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20329" BrowseName="informationtag" DataType="String">
-	<DisplayName>informationtag</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20262</Reference>
-	</References>
-	<Value><String>NA_351-41-02</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20330" BrowseName="ref" DataType="String">
-	<DisplayName>ref</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20262</Reference>
-	</References>
-	<Value><String>http://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=351-41-02</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20332" BrowseName="pvid" DataType="String">
-	<DisplayName>pvid</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20263</Reference>
-	</References>
-	<Value><String>5de8891b-4319-4d29-84c4-6281588267e1</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20333" BrowseName="informationtag" DataType="String">
-	<DisplayName>informationtag</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20263</Reference>
-	</References>
-	<Value><String>NA_351-41-02</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20334" BrowseName="ref" DataType="String">
-	<DisplayName>ref</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20263</Reference>
-	</References>
-	<Value><String>http://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=351-41-02</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20336" BrowseName="pvid" DataType="String">
-	<DisplayName>pvid</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20264</Reference>
-	</References>
-	<Value><String>77ab7d13-7b30-4dc6-b7eb-85c7614245b8</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20337" BrowseName="informationtag" DataType="String">
-	<DisplayName>informationtag</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20264</Reference>
-	</References>
-	<Value><String>NA_351-41-02</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20338" BrowseName="ref" DataType="String">
-	<DisplayName>ref</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20264</Reference>
-	</References>
-	<Value><String>http://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=351-41-02</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20340" BrowseName="pvid" DataType="String">
-	<DisplayName>pvid</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20264</Reference>
-	</References>
-	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20341" BrowseName="informationtag" DataType="String">
-	<DisplayName>informationtag</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20264</Reference>
-	</References>
-	<Value><String>NA_351-51-01-O</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20342" BrowseName="ref" DataType="String">
-	<DisplayName>ref</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20264</Reference>
-	</References>
-	<Value><String></String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20344" BrowseName="pvid" DataType="String">
-	<DisplayName>pvid</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20264</Reference>
-	</References>
-	<Value><String>8c79380a-f18b-4f47-b7bd-263da5968b4a</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20345" BrowseName="informationtag" DataType="String">
-	<DisplayName>informationtag</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20264</Reference>
-	</References>
-	<Value><String>NA_351-51-01-C</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20346" BrowseName="ref" DataType="String">
-	<DisplayName>ref</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20264</Reference>
-	</References>
-	<Value><String></String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20348" BrowseName="identifier" DataType="String">
-	<DisplayName>identifier</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20305</Reference>
-	</References>
-	<Value><String>type.name</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20349" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20305</Reference>
-	</References>
-	<Value><String>Plant Module 3</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20351" BrowseName="identifier" DataType="String">
-	<DisplayName>identifier</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20305</Reference>
-	</References>
-	<Value><String>type.desc</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20352" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20305</Reference>
-	</References>
-	<Value><String>Plant Module 3</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20354" BrowseName="identifier" DataType="String">
-	<DisplayName>identifier</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20305</Reference>
-	</References>
-	<Value><String>vendor</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20355" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20305</Reference>
-	</References>
-	<Value><String>MM</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20357" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20307</Reference>
-	</References>
-	<Value><String>8545</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20359" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20307</Reference>
-	</References>
-	<Value><String>3362 7800</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20361" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20307</Reference>
-	</References>
-	<Value><String>1.0.0.0</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20363" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20308</Reference>
-	</References>
-	<Value><String>local:type.name</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20364" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20308</Reference>
-	</References>
-	<Value><String>Plant Module 3</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20366" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20308</Reference>
-	</References>
-	<Value><String>local:type.desc</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20367" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20308</Reference>
-	</References>
-	<Value><String>Plant Module 3</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20369" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20308</Reference>
-	</References>
-	<Value><String>local:vendor</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20370" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20308</Reference>
-	</References>
-	<Value><String>MM</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20372" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20308</Reference>
-	</References>
-	<Value><String>0900-0001</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20374" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20308</Reference>
-	</References>
-	<Value><String>DevDesc.jpg</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20376" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20308</Reference>
-	</References>
-	<Value><String>DevDesc.ico</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20379" BrowseName="vendor" DataType="String">
-	<DisplayName>vendor</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20309</Reference>
-	</References>
-	<Value><String>System</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20380" BrowseName="version" DataType="String">
-	<DisplayName>version</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20309</Reference>
-	</References>
-	<Value><String>3.5.4.0</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20381" BrowseName="identifier" DataType="String">
-	<DisplayName>identifier</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20309</Reference>
-	</References>
-	<Value><String>iostandardlib</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20382" BrowseName="libname" DataType="String">
-	<DisplayName>libname</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20309</Reference>
-	</References>
-	<Value><String>IoStandard</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20384" BrowseName="name" DataType="String">
-	<DisplayName>name</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20310</Reference>
-	</References>
-	<Value><String>local:itf.modbus.name</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20385" BrowseName="Text" DataType="String">
-	<DisplayName>Text</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20310</Reference>
-	</References>
-	<Value><String>MODBUS</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20388" BrowseName="needsBusCycle" DataType="String">
-	<DisplayName>needsBusCycle</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20310</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20178</Reference>
 	</References>
 	<Value><String>true</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20392" BrowseName="name" DataType="String">
+<UAVariable NodeId="i=20243" BrowseName="interface" DataType="String">
+	<DisplayName>interface</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20178</Reference>
+	</References>
+	<Value><String>Wago.MODBUS</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20244" BrowseName="moduleType" DataType="String">
+	<DisplayName>moduleType</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20178</Reference>
+	</References>
+	<Value><String>4096</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20245" BrowseName="connectorId" DataType="String">
+	<DisplayName>connectorId</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20178</Reference>
+	</References>
+	<Value><String>2</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20246" BrowseName="hostpath" DataType="String">
+	<DisplayName>hostpath</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20178</Reference>
+	</References>
+	<Value><String>-1</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20250" BrowseName="id" DataType="String">
+	<DisplayName>id</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20190</Reference>
+	</References>
+	<Value><String></String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20251" BrowseName="ref" DataType="String">
+	<DisplayName>ref</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20190</Reference>
+	</References>
+	<Value><String></String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20252" BrowseName="name" DataType="String">
 	<DisplayName>name</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20318</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20190</Reference>
+	</References>
+	<Value><String>Cleaning</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20254" BrowseName="id" DataType="String">
+	<DisplayName>id</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20190</Reference>
+	</References>
+	<Value><String></String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20255" BrowseName="ref" DataType="String">
+	<DisplayName>ref</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20190</Reference>
+	</References>
+	<Value><String></String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20256" BrowseName="name" DataType="String">
+	<DisplayName>name</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20190</Reference>
+	</References>
+	<Value><String>Tempering</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20258" BrowseName="informationtag" DataType="String">
+	<DisplayName>informationtag</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20192</Reference>
+	</References>
+	<Value><String>NA_351-41-02</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20259" BrowseName="pvid" DataType="String">
+	<DisplayName>pvid</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20192</Reference>
+	</References>
+	<Value><String>c5232ef6-6cd6-4387-b7e1-fec9f5a5020c</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20260" BrowseName="ref" DataType="String">
+	<DisplayName>ref</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20192</Reference>
+	</References>
+	<Value><String>http://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=351-41-02</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20262" BrowseName="informationtag" DataType="String">
+	<DisplayName>informationtag</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20193</Reference>
+	</References>
+	<Value><String>NA_351-41-02</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20263" BrowseName="pvid" DataType="String">
+	<DisplayName>pvid</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20193</Reference>
+	</References>
+	<Value><String>5de8891b-4319-4d29-84c4-6281588267e1</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20264" BrowseName="ref" DataType="String">
+	<DisplayName>ref</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20193</Reference>
+	</References>
+	<Value><String>http://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=351-41-02</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20266" BrowseName="informationtag" DataType="String">
+	<DisplayName>informationtag</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20194</Reference>
+	</References>
+	<Value><String>NA_351-41-02</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20267" BrowseName="pvid" DataType="String">
+	<DisplayName>pvid</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20194</Reference>
+	</References>
+	<Value><String>77ab7d13-7b30-4dc6-b7eb-85c7614245b8</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20268" BrowseName="ref" DataType="String">
+	<DisplayName>ref</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20194</Reference>
+	</References>
+	<Value><String>http://www.electropedia.org/iev/iev.nsf/display?openform&amp;ievref=351-41-02</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20270" BrowseName="informationtag" DataType="String">
+	<DisplayName>informationtag</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20194</Reference>
+	</References>
+	<Value><String>NA_351-51-01-O</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20271" BrowseName="pvid" DataType="String">
+	<DisplayName>pvid</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20194</Reference>
+	</References>
+	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20272" BrowseName="ref" DataType="String">
+	<DisplayName>ref</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20194</Reference>
+	</References>
+	<Value><String></String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20274" BrowseName="informationtag" DataType="String">
+	<DisplayName>informationtag</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20194</Reference>
+	</References>
+	<Value><String>NA_351-51-01-C</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20275" BrowseName="pvid" DataType="String">
+	<DisplayName>pvid</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20194</Reference>
+	</References>
+	<Value><String>8c79380a-f18b-4f47-b7bd-263da5968b4a</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20276" BrowseName="ref" DataType="String">
+	<DisplayName>ref</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20194</Reference>
+	</References>
+	<Value><String></String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20278" BrowseName="identifier" DataType="String">
+	<DisplayName>identifier</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20235</Reference>
+	</References>
+	<Value><String>type.name</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20279" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20235</Reference>
+	</References>
+	<Value><String>Plant Module 3</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20281" BrowseName="identifier" DataType="String">
+	<DisplayName>identifier</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20235</Reference>
+	</References>
+	<Value><String>type.desc</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20282" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20235</Reference>
+	</References>
+	<Value><String>Plant Module 3</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20284" BrowseName="identifier" DataType="String">
+	<DisplayName>identifier</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20235</Reference>
+	</References>
+	<Value><String>vendor</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20285" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20235</Reference>
+	</References>
+	<Value><String>MM</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20287" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20237</Reference>
+	</References>
+	<Value><String>8545</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20289" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20237</Reference>
+	</References>
+	<Value><String>3362 7800</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20291" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20237</Reference>
+	</References>
+	<Value><String>1.0.0.0</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20293" BrowseName="name" DataType="String">
+	<DisplayName>name</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20238</Reference>
+	</References>
+	<Value><String>local:type.name</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20294" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20238</Reference>
+	</References>
+	<Value><String>Plant Module 3</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20296" BrowseName="name" DataType="String">
+	<DisplayName>name</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20238</Reference>
+	</References>
+	<Value><String>local:type.desc</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20297" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20238</Reference>
+	</References>
+	<Value><String>Plant Module 3</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20299" BrowseName="name" DataType="String">
+	<DisplayName>name</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20238</Reference>
+	</References>
+	<Value><String>local:vendor</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20300" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20238</Reference>
+	</References>
+	<Value><String>MM</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20302" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20238</Reference>
+	</References>
+	<Value><String>0900-0001</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20304" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20238</Reference>
+	</References>
+	<Value><String>DevDesc.jpg</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20306" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20238</Reference>
+	</References>
+	<Value><String>DevDesc.ico</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20309" BrowseName="identifier" DataType="String">
+	<DisplayName>identifier</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20239</Reference>
+	</References>
+	<Value><String>iostandardlib</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20310" BrowseName="version" DataType="String">
+	<DisplayName>version</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20239</Reference>
+	</References>
+	<Value><String>3.5.4.0</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20311" BrowseName="vendor" DataType="String">
+	<DisplayName>vendor</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20239</Reference>
+	</References>
+	<Value><String>System</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20312" BrowseName="libname" DataType="String">
+	<DisplayName>libname</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20239</Reference>
+	</References>
+	<Value><String>IoStandard</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20314" BrowseName="name" DataType="String">
+	<DisplayName>name</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20240</Reference>
+	</References>
+	<Value><String>local:itf.modbus.name</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20315" BrowseName="Text" DataType="String">
+	<DisplayName>Text</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20240</Reference>
+	</References>
+	<Value><String>MODBUS</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20318" BrowseName="needsBusCycle" DataType="String">
+	<DisplayName>needsBusCycle</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20240</Reference>
+	</References>
+	<Value><String>true</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20322" BrowseName="name" DataType="String">
+	<DisplayName>name</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20248</Reference>
 	</References>
 	<Value><String>StdCommunicationLink</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20393" BrowseName="Text" DataType="String">
+<UAVariable NodeId="i=20323" BrowseName="Text" DataType="String">
 	<DisplayName>Text</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20318</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20248</Reference>
 	</References>
 	<Value><String>True</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20397" BrowseName="key" DataType="String">
+<UAVariable NodeId="i=20327" BrowseName="key" DataType="String">
 	<DisplayName>key</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20377</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20307</Reference>
 	</References>
 	<Value><String>224-101.icon</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20398" BrowseName="name" DataType="String">
+<UAVariable NodeId="i=20328" BrowseName="name" DataType="String">
 	<DisplayName>name</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20377</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20307</Reference>
 	</References>
 	<Value><String>local:device.icon</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20401" BrowseName="Text" DataType="String">
+<UAVariable NodeId="i=20331" BrowseName="Text" DataType="String">
 	<DisplayName>Text</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20390</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20320</Reference>
 	</References>
 	<Value><String>8ceeba4e-ac7a-4fbd-9415-bfb2d98668ab</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20403" BrowseName="Text" DataType="String">
+<UAVariable NodeId="i=20333" BrowseName="Text" DataType="String">
 	<DisplayName>Text</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20390</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20320</Reference>
 	</References>
 	<Value><String>Plc Logic</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20405" BrowseName="name" DataType="String">
+<UAVariable NodeId="i=20335" BrowseName="pvid" DataType="String">
+	<DisplayName>pvid</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20324</Reference>
+	</References>
+	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20336" BrowseName="name" DataType="String">
 	<DisplayName>name</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20394</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20324</Reference>
 	</References>
 	<Value><String>Cleaner_Regel_D</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20406" BrowseName="pvid" DataType="String">
-	<DisplayName>pvid</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20394</Reference>
-	</References>
-	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20407" BrowseName="ref" DataType="String">
+<UAVariable NodeId="i=20337" BrowseName="ref" DataType="String">
 	<DisplayName>ref</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20394</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20324</Reference>
 	</References>
 	<Value><String></String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20409" BrowseName="name" DataType="String">
+<UAVariable NodeId="i=20339" BrowseName="pvid" DataType="String">
+	<DisplayName>pvid</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20324</Reference>
+	</References>
+	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20340" BrowseName="name" DataType="String">
 	<DisplayName>name</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20394</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20324</Reference>
 	</References>
 	<Value><String>Cleaner_Regel_I</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20410" BrowseName="pvid" DataType="String">
-	<DisplayName>pvid</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20394</Reference>
-	</References>
-	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20411" BrowseName="ref" DataType="String">
+<UAVariable NodeId="i=20341" BrowseName="ref" DataType="String">
 	<DisplayName>ref</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20394</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20324</Reference>
 	</References>
 	<Value><String></String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20413" BrowseName="name" DataType="String">
+<UAVariable NodeId="i=20343" BrowseName="pvid" DataType="String">
+	<DisplayName>pvid</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20324</Reference>
+	</References>
+	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20344" BrowseName="name" DataType="String">
 	<DisplayName>name</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20394</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20324</Reference>
 	</References>
 	<Value><String>Cleaner_Zeit</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20414" BrowseName="pvid" DataType="String">
-	<DisplayName>pvid</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20394</Reference>
-	</References>
-	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20415" BrowseName="ref" DataType="String">
+<UAVariable NodeId="i=20345" BrowseName="ref" DataType="String">
 	<DisplayName>ref</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20394</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20324</Reference>
 	</References>
 	<Value><String></String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20417" BrowseName="name" DataType="String">
+<UAVariable NodeId="i=20347" BrowseName="pvid" DataType="String">
+	<DisplayName>pvid</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20324</Reference>
+	</References>
+	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20348" BrowseName="name" DataType="String">
 	<DisplayName>name</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20394</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20324</Reference>
 	</References>
 	<Value><String>CleanerVorlauftemp</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20418" BrowseName="pvid" DataType="String">
-	<DisplayName>pvid</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20394</Reference>
-	</References>
-	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20419" BrowseName="ref" DataType="String">
+<UAVariable NodeId="i=20349" BrowseName="ref" DataType="String">
 	<DisplayName>ref</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20394</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20324</Reference>
 	</References>
 	<Value><String></String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20421" BrowseName="name" DataType="String">
+<UAVariable NodeId="i=20351" BrowseName="pvid" DataType="String">
+	<DisplayName>pvid</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20325</Reference>
+	</References>
+	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20352" BrowseName="name" DataType="String">
 	<DisplayName>name</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20395</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20325</Reference>
 	</References>
 	<Value><String>SollTemp</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20422" BrowseName="pvid" DataType="String">
-	<DisplayName>pvid</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20395</Reference>
-	</References>
-	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20423" BrowseName="ref" DataType="String">
+<UAVariable NodeId="i=20353" BrowseName="ref" DataType="String">
 	<DisplayName>ref</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20395</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20325</Reference>
 	</References>
 	<Value><String></String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20425" BrowseName="name" DataType="String">
+<UAVariable NodeId="i=20355" BrowseName="pvid" DataType="String">
+	<DisplayName>pvid</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20325</Reference>
+	</References>
+	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20356" BrowseName="name" DataType="String">
 	<DisplayName>name</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20395</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20325</Reference>
 	</References>
 	<Value><String>CurrentTemp</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20426" BrowseName="pvid" DataType="String">
-	<DisplayName>pvid</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20395</Reference>
-	</References>
-	<Value><String>f60b023a-f610-4ae2-ac02-57586769d15d</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20427" BrowseName="ref" DataType="String">
+<UAVariable NodeId="i=20357" BrowseName="ref" DataType="String">
 	<DisplayName>ref</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20395</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20325</Reference>
 	</References>
 	<Value><String></String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20429" BrowseName="deviceId" DataType="String">
+<UAVariable NodeId="i=20359" BrowseName="deviceId" DataType="String">
 	<DisplayName>deviceId</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20399</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20329</Reference>
 	</References>
 	<Value><String>1006 0001</String></Value>
 </UAVariable>
-<UAVariable NodeId="i=20430" BrowseName="deviceType" DataType="String">
-	<DisplayName>deviceType</DisplayName>
-	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20399</Reference>
-	</References>
-	<Value><String>32777</String></Value>
-</UAVariable>
-<UAVariable NodeId="i=20431" BrowseName="version" DataType="String">
+<UAVariable NodeId="i=20360" BrowseName="version" DataType="String">
 	<DisplayName>version</DisplayName>
 	<References>
-		<Reference ReferenceType="HasProperty" IsForward="false">i=20399</Reference>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20329</Reference>
 	</References>
 	<Value><String>1.1.1.7</String></Value>
+</UAVariable>
+<UAVariable NodeId="i=20361" BrowseName="deviceType" DataType="String">
+	<DisplayName>deviceType</DisplayName>
+	<References>
+		<Reference ReferenceType="HasProperty" IsForward="false">i=20329</Reference>
+	</References>
+	<Value><String>32777</String></Value>
 </UAVariable>
 </UANodeSet>
